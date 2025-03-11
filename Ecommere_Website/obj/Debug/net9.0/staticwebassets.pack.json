@@ -1,0 +1,557 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Ecommere_Website.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Ecommere_Website.18mspaoovy.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\Crate-_-Barrel_s-homepage.webp",
+      "PackagePath": "staticwebassets\\Images\\Crate-_-Barrel_s-homepage.webp"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\US.png",
+      "PackagePath": "staticwebassets\\Images\\US.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\appstore.png",
+      "PackagePath": "staticwebassets\\Images\\appstore.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\auth_back.jpg",
+      "PackagePath": "staticwebassets\\Images\\auth_back.jpg"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\back1.jpg",
+      "PackagePath": "staticwebassets\\Images\\back1.jpg"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\back2.jpg",
+      "PackagePath": "staticwebassets\\Images\\back2.jpg"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\back3.jpg",
+      "PackagePath": "staticwebassets\\Images\\back3.jpg"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\blazer.png",
+      "PackagePath": "staticwebassets\\Images\\blazer.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\blazer_2.png",
+      "PackagePath": "staticwebassets\\Images\\blazer_2.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\cart.png",
+      "PackagePath": "staticwebassets\\Images\\cart.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\carts.png",
+      "PackagePath": "staticwebassets\\Images\\carts.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\casual-shirt.png",
+      "PackagePath": "staticwebassets\\Images\\casual-shirt.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\casual-shirt_2.png",
+      "PackagePath": "staticwebassets\\Images\\casual-shirt_2.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\casual-shirt_3.png",
+      "PackagePath": "staticwebassets\\Images\\casual-shirt_3.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\chat icon.png",
+      "PackagePath": "staticwebassets\\Images\\chat icon.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\chat.png",
+      "PackagePath": "staticwebassets\\Images\\chat.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\chino.png",
+      "PackagePath": "staticwebassets\\Images\\chino.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\chino_2.png",
+      "PackagePath": "staticwebassets\\Images\\chino_2.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\chino_3.png",
+      "PackagePath": "staticwebassets\\Images\\chino_3.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\coat.png",
+      "PackagePath": "staticwebassets\\Images\\coat.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\coat_2.png",
+      "PackagePath": "staticwebassets\\Images\\coat_2.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\coat_3.png",
+      "PackagePath": "staticwebassets\\Images\\coat_3.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\ecomm_webb_12.webp",
+      "PackagePath": "staticwebassets\\Images\\ecomm_webb_12.webp"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\ecommerce_website_2.webp",
+      "PackagePath": "staticwebassets\\Images\\ecommerce_website_2.webp"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\ecommerce_website_3.webp",
+      "PackagePath": "staticwebassets\\Images\\ecommerce_website_3.webp"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\ecommerce_website_7.webp",
+      "PackagePath": "staticwebassets\\Images\\ecommerce_website_7.webp"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\ecommerce_website_badgley.webp",
+      "PackagePath": "staticwebassets\\Images\\ecommerce_website_badgley.webp"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\fb.png",
+      "PackagePath": "staticwebassets\\Images\\fb.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\formal-trousers.png",
+      "PackagePath": "staticwebassets\\Images\\formal-trousers.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\formal-trousers_2.png",
+      "PackagePath": "staticwebassets\\Images\\formal-trousers_2.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\formal-trousers_3.png",
+      "PackagePath": "staticwebassets\\Images\\formal-trousers_3.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\go.png",
+      "PackagePath": "staticwebassets\\Images\\go.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\heart.png",
+      "PackagePath": "staticwebassets\\Images\\heart.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\hoodie.png",
+      "PackagePath": "staticwebassets\\Images\\hoodie.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\hoodie_2.png",
+      "PackagePath": "staticwebassets\\Images\\hoodie_2.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\hoodie_3.png",
+      "PackagePath": "staticwebassets\\Images\\hoodie_3.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\jacket.png",
+      "PackagePath": "staticwebassets\\Images\\jacket.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\jacket_2.png",
+      "PackagePath": "staticwebassets\\Images\\jacket_2.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\jacket_3.png",
+      "PackagePath": "staticwebassets\\Images\\jacket_3.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\jeans.png",
+      "PackagePath": "staticwebassets\\Images\\jeans.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\jeans_2.png",
+      "PackagePath": "staticwebassets\\Images\\jeans_2.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\jeans_3.png",
+      "PackagePath": "staticwebassets\\Images\\jeans_3.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\logo.png",
+      "PackagePath": "staticwebassets\\Images\\logo.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\message.png",
+      "PackagePath": "staticwebassets\\Images\\message.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\playstore.png",
+      "PackagePath": "staticwebassets\\Images\\playstore.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\polo-tshirt.png",
+      "PackagePath": "staticwebassets\\Images\\polo-tshirt.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\polo-tshirt_2.jpg",
+      "PackagePath": "staticwebassets\\Images\\polo-tshirt_2.jpg"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\polo-tshirt_3.jpg",
+      "PackagePath": "staticwebassets\\Images\\polo-tshirt_3.jpg"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\product1_1.png",
+      "PackagePath": "staticwebassets\\Images\\product1_1.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\product1_2.png",
+      "PackagePath": "staticwebassets\\Images\\product1_2.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\product1_3.png",
+      "PackagePath": "staticwebassets\\Images\\product1_3.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\product2_1.png",
+      "PackagePath": "staticwebassets\\Images\\product2_1.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\product2_2.png",
+      "PackagePath": "staticwebassets\\Images\\product2_2.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\product2_3.png",
+      "PackagePath": "staticwebassets\\Images\\product2_3.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\product3.png",
+      "PackagePath": "staticwebassets\\Images\\product3.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\shopping-cart.png",
+      "PackagePath": "staticwebassets\\Images\\shopping-cart.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\shopping.png",
+      "PackagePath": "staticwebassets\\Images\\shopping.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\suit.png",
+      "PackagePath": "staticwebassets\\Images\\suit.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\suit_2.png",
+      "PackagePath": "staticwebassets\\Images\\suit_2.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\suit_3.png",
+      "PackagePath": "staticwebassets\\Images\\suit_3.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\sweatshirt.jpg",
+      "PackagePath": "staticwebassets\\Images\\sweatshirt.jpg"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\sweatshirt_2.jpg",
+      "PackagePath": "staticwebassets\\Images\\sweatshirt_2.jpg"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\sweatshirt_3.jpg",
+      "PackagePath": "staticwebassets\\Images\\sweatshirt_3.jpg"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\track-suit.png",
+      "PackagePath": "staticwebassets\\Images\\track-suit.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\track-suit_2.png",
+      "PackagePath": "staticwebassets\\Images\\track-suit_2.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\Images\\track-suit_3.png",
+      "PackagePath": "staticwebassets\\Images\\track-suit_3.png"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\css\\Home.css",
+      "PackagePath": "staticwebassets\\css\\Home.css"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Ecommere_Website\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Ecommere_Website.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Ecommere_Website.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Ecommere_Website.props",
+      "PackagePath": "build\\Ecommere_Website.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Ecommere_Website.props",
+      "PackagePath": "buildMultiTargeting\\Ecommere_Website.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Ecommere_Website.props",
+      "PackagePath": "buildTransitive\\Ecommere_Website.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
