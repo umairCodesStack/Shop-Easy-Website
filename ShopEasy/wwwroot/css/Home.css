@@ -1,0 +1,216 @@
+﻿body {
+    background-color: #f4f4f4;
+}
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.logo-img {
+    width: 100px;
+    height: 50px;
+    border-radius: 5%;
+    margin-left: 0px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar .search-bar {
+    width: 50%;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+.search-bar input {
+    border-radius: 25px 0 0 25px;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    width: 100%;
+    outline: none;
+}
+
+.search-bar button {
+    border-radius: 0 25px 25px 0;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    background-color: #ff9900;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.signIn {
+    display: inline-flex;
+    padding: 8px 15px;
+    border-radius: 25px;
+    font-size: 1rem;
+    border: none;
+    background-color: #ff9900;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none; /* Removes underline */
+    font-weight: bold;
+    white-space: nowrap; /* Prevents wrapping */
+    align-items: center; /* Vertically centers text */
+}
+
+.search-bar button:hover {
+    background-color: #e68a00;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.deliver-btn {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 6px 10px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 10px;
+    white-space: nowrap;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+    .deliver-btn:hover {
+        background-color: #f8f9fa;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .deliver-btn img {
+        width: 20px;
+        height: 15px;
+    }
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    max-width: 100%; /* Ensure card is responsive */
+    margin: auto;
+}
+
+.carousel-item img {
+    height: auto;
+    object-fit: cover;
+}
+
+.card {
+    border: none;
+    border-radius: 10px; /* Slight rounded corners for a modern look */
+    overflow: hidden; 
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1; 
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #777;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.card-description {
+    color: #555;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.carousel-inner img {
+    border-radius: 10px;
+    object-fit: cover;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-body .btn {
+    background-color: #ff9900;
+    border-color: #ff9900;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+    .card-body .btn:hover {
+        background-color: #e68a00;
+        border-color: #e68a00;
+    }
+
+
+@media (max-width: 576px) {
+    .card-img-top {
+        height: 200px; /* Slightly reduce image height on smaller screens */
+    }
+
+    .card-body .btn {
+        font-size: 0.9rem;
+    }
+
+    .icon-btns a {
+        font-size: 1rem; /* Adjust icon size for mobile */
+    }
+}
+
+.messenger-chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #FF6600;
+    color: white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    z-index: 1000;
+}
+
+    .messenger-chat a {
+        color: white;
+        font-size: 28px;
+        text-decoration: none;
+    }
+
+    .messenger-chat:hover {
+        transform: scale(1.1);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }

@@ -1,0 +1,98 @@
+﻿<link rel="stylesheet"  href="/css/Home.css" />
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="/Images/logo.png" alt="ShopEasy Logo" class="logo-img">
+            ShopEasy
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <form asp-action="SearchProduct" asp-controller="Home" class="d-flex search-bar">
+                <input class="form-control" type="search" name="searchTerm" placeholder="Search products..." aria-label="Search">
+                <button class="btn" type="submit">Search</button>
+            </form>
+            <div class="dropdown ms-2">
+                <button class="btn deliver-btn dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="~/Images/US.png" alt="US Flag"> Deliver to
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">United States</a></li>
+                    <li><a class="dropdown-item" href="#">Canada</a></li>
+                    <li><a class="dropdown-item" href="#">United Kingdom</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Home/HomePage">
+                            <i class="fas fa-home" style="color: orange;"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-heart" style="color: orange;"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-comment-dots" style="color: orange;"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/Cart/Cart" class="nav-link">
+                            <i class="fas fa-shopping-cart" style="color: orange;"></i>
+                        </a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-user-circle" style="color: orange;"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="signIn" href="/Account/LogOut">Sign Out</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+<!-- Secondary Navbar -->
+<nav class="navbar navbar-expand-lg  py-1" style="background-color: #232f3e; ;">
+    <div class="container-fluid">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="categoriesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-bars"></i> Categories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="categoriesDropdown">
+                    <li><a href="/Home/ShowByCatagorey?catagorey=Clothing" class="dropdown-item">Men's Clothing</a></li>
+                    <li><a href="/Home/ShowByCatagorey?catagorey=Clothing" class="dropdown-item">Women's Clothing</a></li>
+                    <li><a href="/Home/ShowByCatagorey?catagorey=Electronics" class="dropdown-item">Electronics</a></li>
+                    <li><a class="dropdown-item" href="/Home/ShowByCatagorey?catagorey=Home%20%26%20Kitchen">Home & Kitchen</a></li>
+                    <li><a class="dropdown-item" href="/Home/ShowByCatagorey?catagorey=Beauty%20%26%20Health">Beauty & Health</a></li>
+                </ul>
+            </li>
+
+            <li class="nav-item">
+                <span class="nav-link text-white pe-3">Explore</span>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link text-white " href="#">Help</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white " href="#">Get App</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white " href="#">Become a Supplier</a>
+            </li>
+        </ul>
+    </div>
+</nav>

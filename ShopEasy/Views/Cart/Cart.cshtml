@@ -1,0 +1,139 @@
+﻿@using Domain.Entities;
+@using Ecommere_Website.Models
+@model List<ProductViewModel>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/Home.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        .cart-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        }
+
+        .cart-items {
+        flex: 2;
+        background: #f4f4f4;
+        padding: 20px;
+        border-radius: 10px;
+        }
+
+        .cart-summary {
+        flex: 1;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-custom {
+        background-color: #ff9900;
+        color: white;
+        border-radius: 50px;
+        padding: 12px 22px;
+        border: none;
+        width: 100%;
+        }
+
+        .btn-custom:hover {
+        background-color: #e68000;
+        }
+
+        .btn-outline-custom {
+        border: 2px solid #ff9900;
+        color: #ff9900;
+        border-radius: 50px;
+        padding: 12px 22px;
+        width: 100%;
+        }
+
+        .btn-outline-custom:hover {
+        background-color: #ff9900;
+        color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <partial name="_navBar" />
+    <div class="container py-5">
+        <h2 class="fw-bold" style="color:#FF6600;">Shopping Cart</h2>
+        <div class="cart-container row">
+            <!-- Cart Items Section -->
+            <div class="cart-items col-md-8">
+                <div class="d-flex justify-content-between align-items-center border-bottom pb-3 mb-3">
+                    <h4>Items in Cart</h4>
+                </div>
+
+                <!-- Product Item 1 -->
+                @foreach(var temp in Model)
+                {
+                    <div class="d-flex align-items-center justify-content-between mb-3 p-3 bg-white rounded shadow-sm">
+                        <img src="@temp.ImageUrls[0]" width="80" height="80" class="rounded" alt="Product">
+                        <div>
+                            <h5 class="mb-1">@temp.Name</h5>
+                            <p class="text-muted">$@temp.TotalPrice</p>
+                            
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <a href="/Cart/DecrementItemInCart?Id=@temp.Id" class="btn btn-sm btn-outline-secondary"><i class="fas fa-minus"></i></a>
+                            <input type="text" class="form-control w-25 mx-2" value="@temp.quantity">
+                            <a href="/Cart/IncrementItemInCart?PlusId=@temp.Id" class="btn btn-sm btn-outline-secondary"><i class="fas fa-plus"></i></a>
+                        </div>
+                        <a href="/Cart/RemoveFromCart?MyId=@temp.Id" class="btn btn-outline-danger"><i class="fas fa-trash"></i></a>
+                    </div>
+
+                }
+
+
+            </div>
+
+            <!-- Cart Summary Section -->
+            <div class="cart-summary col-md-4">
+                <h4 class="fw-bold">Summary</h4>
+                <hr>
+                @{
+                    decimal total=0;
+                    decimal shipping = 0;
+
+                }
+                @foreach(var temp in Model)
+                {
+
+                    <p class="d-flex justify-content-between">
+                        <span>@temp.quantity<span>X</span> @temp.Name:</span>
+                        <span>$@temp.TotalPrice</span>
+                    </p>
+                    total = total + temp.TotalPrice;
+                }
+
+                <p class="d-flex justify-content-between">
+                    <span>Subtotal:</span>
+                    <span>$@total</span>
+                </p>
+                <p class="d-flex justify-content-between">
+                    <span>Shipping:</span>
+                    <span>$@shipping</span>
+                </p>
+                @{
+                    
+                    total = total + shipping;
+                }
+                <hr>
+                <h5 class="d-flex justify-content-between fw-bold">
+                    <span>Total:</span>
+                    <span>$@total</span>
+                </h5>
+                <button class="btn btn-custom mt-3">Proceed to Checkout</button>
+                <a href="/Home/HomePage" class="btn btn-outline-custom mt-2">Continue Shopping</a>
+            </div>
+        </div>
+    </div>
+    <partial name="_footer" />
+</body>
+</html>

@@ -1,0 +1,15 @@
+C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Domain\bin\Debug\net8.0\Domain.runtimeconfig.json
+C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Domain\bin\Debug\net8.0\Domain.dll
+C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Domain\obj\Debug\net8.0\Domain.dll
+C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Domain\obj\Debug\net8.0\Domain.genruntimeconfig.cache
+C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Domain\obj\Debug\net8.0\ref\Domain.dll
