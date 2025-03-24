@@ -1,5 +1,6 @@
 using Application;
 using Domain.Interfaces;
+using ShopEasy.Hubs;
 using Infrastructure;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -56,6 +57,7 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseSession();
+app.MapHub<MessageHub>("/notifierHub");
 
 app.MapControllerRoute(
     name: "default",

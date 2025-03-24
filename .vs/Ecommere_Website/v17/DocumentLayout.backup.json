@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -59,10 +59,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             },
             {
               "$type": "Document",
@@ -87,7 +83,8 @@
               "RelativeToolTip": "Ecommere_Website\\Controllers\\CartController.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T07:21:06.97Z"
+              "WhenOpened": "2025-03-16T07:21:06.97Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -99,7 +96,8 @@
               "RelativeToolTip": "Ecommere_Website\\Views\\Cart\\Cart.cshtml",
               "ViewState": "AgIAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-16T07:19:16.733Z"
+              "WhenOpened": "2025-03-16T07:19:16.733Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -111,7 +109,8 @@
               "RelativeToolTip": "Ecommere_Website\\Controllers\\AccountController.cs",
               "ViewState": "AgIAAEgAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T06:59:04.794Z"
+              "WhenOpened": "2025-03-16T06:59:04.794Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -123,7 +122,8 @@
               "RelativeToolTip": "Ecommere_Website\\Controllers\\HomeController.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAwwDoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T17:27:46.953Z"
+              "WhenOpened": "2025-03-13T17:27:46.953Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -135,7 +135,8 @@
               "RelativeToolTip": "Ecommere_Website\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-13T16:44:10.851Z"
+              "WhenOpened": "2025-03-13T16:44:10.851Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -147,7 +148,8 @@
               "RelativeToolTip": "Ecommere_Website\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T15:01:21.374Z"
+              "WhenOpened": "2025-03-12T15:01:21.374Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -159,7 +161,8 @@
               "RelativeToolTip": "Ecommere_Website\\Models\\AuthenticationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T13:55:36.776Z"
+              "WhenOpened": "2025-03-12T13:55:36.776Z",
+              "EditorCaption": ""
             }
           ]
         }

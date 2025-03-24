@@ -146,3 +146,4 @@ C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\ShopEasy\obj\Debug\net8.0\ShopEasy.g
 C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\ShopEasy\obj\Debug\net8.0\ref\ShopEasy.dll
 C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\ShopEasy\bin\Debug\net8.0\Application.dll
 C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\ShopEasy\bin\Debug\net8.0\Application.pdb
+C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\ShopEasy\bin\Debug\net8.0\libman.json

@@ -1,4 +1,19 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿document.addEventListener('DOMContentLoaded', function () {
+   
+    var connection = new signalR.HubConnectionBuilder().withUrl("/notifierHub").build();
+    connection.start();
 
-// Write your JavaScript code.
+    var sendButton = document.getElementById("sendButton");
+    if (sendButton) {
+        sendButton.addEventListener("click", function (event) {
+            data = $('#txt').val();
+            connection.invoke("sendNotification", data);
+            event.preventDefault();
+        });
+    }
+
+    connection.on("ReceiveNotification", function (data) {
+        document.getElementById("dataDisplay").textContent = data;
+        console.log(data);
+    });
+});

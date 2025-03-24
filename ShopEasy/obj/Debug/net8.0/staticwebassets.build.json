@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LicoSAHbUA5xkM6JkVN5glvse7po9Hf97agxQLE2fxs=",
+  "Hash": "3Go+9Of7sZhuKRlyB4Kjh8+ex77kIpnvxjhQuXfm1Fw=",
   "Source": "ShopEasy",
   "BasePath": "_content/ShopEasy",
   "Mode": "Default",
@@ -1396,8 +1396,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xtxxf3hu2r",
-      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
+      "Fingerprint": "ne16jfc9ob",
+      "Integrity": "YSQsPykLI4acNfaXwkPuPTxg/B0t+V41zN5FtjQYV5w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -2598,6 +2598,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\ShopEasy\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "SourceId": "ShopEasy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\ShopEasy\\wwwroot\\",
+      "BasePath": "_content/ShopEasy",
+      "RelativePath": "lib/microsoft/signalr/dist/browser/signalr#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cqu3aupeo3",
+      "Integrity": "rK9Zx8UOZ+yR2hZ9Ov8dBexROapvuO2mE9jAx7ZIquA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Identity": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\ShopEasy\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "SourceId": "ShopEasy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\ShopEasy\\wwwroot\\",
+      "BasePath": "_content/ShopEasy",
+      "RelativePath": "lib/microsoft/signalr/dist/browser/signalr.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m3i9f6419i",
+      "Integrity": "4opyCjWbN8sBV1jVQ/kIcw7Vu+R42wlQa7aIfxgxNTg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js"
     }
   ],
   "Endpoints": [
@@ -7778,7 +7820,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "657"
         },
         {
           "Name": "Content-Type",
@@ -7786,11 +7828,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"YSQsPykLI4acNfaXwkPuPTxg/B0t+V41zN5FtjQYV5w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Mar 2025 15:38:13 GMT"
+          "Value": "Mon, 24 Mar 2025 14:38:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7800,12 +7842,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-YSQsPykLI4acNfaXwkPuPTxg/B0t+V41zN5FtjQYV5w="
         }
       ]
     },
     {
-      "Route": "js/site.xtxxf3hu2r.js",
+      "Route": "js/site.ne16jfc9ob.js",
       "AssetFile": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\ShopEasy\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -7815,7 +7857,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "657"
         },
         {
           "Name": "Content-Type",
@@ -7823,11 +7865,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"YSQsPykLI4acNfaXwkPuPTxg/B0t+V41zN5FtjQYV5w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Mar 2025 15:38:13 GMT"
+          "Value": "Mon, 24 Mar 2025 14:38:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7837,7 +7879,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
+          "Value": "ne16jfc9ob"
         },
         {
           "Name": "label",
@@ -7845,7 +7887,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-YSQsPykLI4acNfaXwkPuPTxg/B0t+V41zN5FtjQYV5w="
         }
       ]
     },
@@ -12524,6 +12566,170 @@
       ]
     },
     {
+      "Route": "lib/microsoft/signalr/dist/browser/signalr.cqu3aupeo3.js",
+      "AssetFile": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\ShopEasy\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "160262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rK9Zx8UOZ+yR2hZ9Ov8dBexROapvuO2mE9jAx7ZIquA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 14:20:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cqu3aupeo3"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/microsoft/signalr/dist/browser/signalr.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rK9Zx8UOZ+yR2hZ9Ov8dBexROapvuO2mE9jAx7ZIquA="
+        }
+      ]
+    },
+    {
+      "Route": "lib/microsoft/signalr/dist/browser/signalr.js",
+      "AssetFile": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\ShopEasy\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "160262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rK9Zx8UOZ+yR2hZ9Ov8dBexROapvuO2mE9jAx7ZIquA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 14:20:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rK9Zx8UOZ+yR2hZ9Ov8dBexROapvuO2mE9jAx7ZIquA="
+        }
+      ]
+    },
+    {
+      "Route": "lib/microsoft/signalr/dist/browser/signalr.min.js",
+      "AssetFile": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\ShopEasy\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47647"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4opyCjWbN8sBV1jVQ/kIcw7Vu+R42wlQa7aIfxgxNTg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 14:20:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4opyCjWbN8sBV1jVQ/kIcw7Vu+R42wlQa7aIfxgxNTg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/microsoft/signalr/dist/browser/signalr.min.m3i9f6419i.js",
+      "AssetFile": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\ShopEasy\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47647"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4opyCjWbN8sBV1jVQ/kIcw7Vu+R42wlQa7aIfxgxNTg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 14:20:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m3i9f6419i"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/microsoft/signalr/dist/browser/signalr.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4opyCjWbN8sBV1jVQ/kIcw7Vu+R42wlQa7aIfxgxNTg="
+        }
+      ]
+    },
+    {
       "Route": "ShopEasy.bundle.scp.css",
       "AssetFile": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\ShopEasy\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShopEasy.bundle.scp.css",
       "Selectors": [],
@@ -12546,7 +12752,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 15:58:22 GMT"
+          "Value": "Mon, 24 Mar 2025 14:45:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12583,7 +12789,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 15:58:22 GMT"
+          "Value": "Mon, 24 Mar 2025 14:45:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12628,7 +12834,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 15:58:22 GMT"
+          "Value": "Mon, 24 Mar 2025 14:45:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12673,7 +12879,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 15:58:22 GMT"
+          "Value": "Mon, 24 Mar 2025 14:45:16 GMT"
         },
         {
           "Name": "Cache-Control",
