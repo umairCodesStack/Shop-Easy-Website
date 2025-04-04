@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Files\\C# and .NET core\\ShopEasy\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Domain\\Domain.csproj": {
+    "C:\\Files\\C# and .NET core\\ShopEasy\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Files\\C# and .NET core\\ShopEasy\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Files\\C# and .NET core\\ShopEasy\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Umair\\.nuget\\packages\\",
-        "outputPath": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Domain\\obj\\",
+        "outputPath": "C:\\Files\\C# and .NET core\\ShopEasy\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -89,14 +89,14 @@
         }
       }
     },
-    "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Files\\C# and .NET core\\ShopEasy\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Files\\C# and .NET core\\ShopEasy\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Files\\C# and .NET core\\ShopEasy\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Umair\\.nuget\\packages\\",
-        "outputPath": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Files\\C# and .NET core\\ShopEasy\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -117,8 +117,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Files\\BSE 5th Sem\\SCD\\Solutions\\ShopEasy\\Domain\\Domain.csproj"
+              "C:\\Files\\C# and .NET core\\ShopEasy\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Files\\C# and .NET core\\ShopEasy\\Domain\\Domain.csproj"
               }
             }
           }
