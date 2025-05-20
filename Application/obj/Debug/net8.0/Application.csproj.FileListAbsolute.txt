@@ -16,3 +16,21 @@ C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Application\obj\Debug\net8.0\ref\App
 C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Application\bin\Debug\net8.0\Domain.dll
 C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Application\bin\Debug\net8.0\Domain.pdb
 C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Application\bin\Debug\net8.0\Application.deps.json
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Application\bin\Debug\net8.0\Application.runtimeconfig.json
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Application\bin\Debug\net8.0\Application.dll
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Application\bin\Debug\net8.0\Application.pdb
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Application\bin\Debug\net8.0\Domain.dll
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Application\bin\Debug\net8.0\Domain.pdb
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Application\obj\Debug\net8.0\Application.sourcelink.json
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Application\obj\Debug\net8.0\Application.dll
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Application\obj\Debug\net8.0\refint\Application.dll
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Application\obj\Debug\net8.0\Application.pdb
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Application\obj\Debug\net8.0\Application.genruntimeconfig.cache
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Application\obj\Debug\net8.0\ref\Application.dll

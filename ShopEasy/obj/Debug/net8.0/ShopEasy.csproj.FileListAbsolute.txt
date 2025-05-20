@@ -147,3 +147,7 @@ C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\ShopEasy\obj\Debug\net8.0\ref\ShopEa
 C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\ShopEasy\bin\Debug\net8.0\Application.dll
 C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\ShopEasy\bin\Debug\net8.0\Application.pdb
 C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\ShopEasy\bin\Debug\net8.0\libman.json
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\ShopEasy\obj\Debug\net8.0\ShopEasy.dll
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\ShopEasy\obj\Debug\net8.0\refint\ShopEasy.dll
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\ShopEasy\obj\Debug\net8.0\ShopEasy.pdb
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\ShopEasy\obj\Debug\net8.0\ShopEasy.csproj.AssemblyReference.cache

@@ -13,3 +13,18 @@ C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Domain\obj\Debug\net8.0\refint\Domai
 C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Domain\obj\Debug\net8.0\Domain.genruntimeconfig.cache
 C:\Files\BSE 5th Sem\SCD\Solutions\ShopEasy\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Domain\bin\Debug\net8.0\Domain.runtimeconfig.json
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Domain\obj\Debug\net8.0\Domain.genruntimeconfig.cache
+C:\Users\PMLS\Desktop\Project\Shop-Easy-Website\Domain\obj\Debug\net8.0\ref\Domain.dll

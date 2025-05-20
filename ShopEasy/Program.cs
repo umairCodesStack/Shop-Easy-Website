@@ -13,7 +13,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddSignalR();
 builder.Services.AddSession();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
-builder.Services.AddScoped<ProductService>(); // Register ProductService
+builder.Services.AddScoped<ProductService>(); 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
