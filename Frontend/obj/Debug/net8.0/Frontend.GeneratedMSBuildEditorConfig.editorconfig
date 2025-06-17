@@ -44,6 +44,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Files/Shop-Easy-Website/Frontend/Components/Pages/Navbar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOYXZiYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Files/Shop-Easy-Website/Frontend/Components/Pages/ProductList.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0TGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -66,10 +70,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Files/Shop-Easy-Website/Frontend/Components/Shared/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGFyZWRcRm9vdGVyLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Files/Shop-Easy-Website/Frontend/Components/Shared/Navbar.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGFyZWRcTmF2YmFyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Files/Shop-Easy-Website/Frontend/Components/_Imports.razor]

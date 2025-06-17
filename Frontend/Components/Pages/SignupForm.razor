@@ -3,6 +3,8 @@
 @using Frontend.Services
 @inject  AccountService UserService
 @inject NavigationManager NavigationManager
+@inject Blazored.SessionStorage.ISessionStorageService sessionStorage
+
 
 <style>
     .btn-google, .btn-facebook {
@@ -122,12 +124,12 @@
         var response = await UserService.CreateUserAsync(signupModel);
         if (response.status)
         {
+            NavigationManager.NavigateTo($"/home?userId={response.userId}");
 
-            NavigationManager.NavigateTo("/");
+
         }
         else
         {
-            // Display error message
             signupError = response.message ?? "An error occurred during signup.";
         }
     }

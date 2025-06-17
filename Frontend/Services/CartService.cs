@@ -16,16 +16,6 @@ namespace Frontend.Services
 
         public async Task AddToCartAsync(AddToCartDTO item)
         {
-            // Retrieve userId from session storage
-            var userId = await _session.GetItemAsync<string?>("UserId");
-
-            if (userId == null)
-            {
-                throw new Exception("User not logged in or session expired.");
-            }
-
-            item.userid = userId;
-
             var response = await _http.PostAsJsonAsync("https://localhost:7290/api/Cart/AddToCart", item);
             if (!response.IsSuccessStatusCode)
             {

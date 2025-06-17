@@ -1,4 +1,4 @@
-﻿@* NavBar.razor *@
+﻿@inject NavigationManager Navigation
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
@@ -13,9 +13,9 @@
 
         <div class="collapse navbar-collapse" id="navbarNav">
             <div class="d-flex search-bar">
-    <InputText @bind-Value="searchTerm" class="form-control" placeholder="Search products..." aria-label="Search" />
+                <InputText @bind-Value="searchTerm" class="form-control" placeholder="Search products..." aria-label="Search" />
                 <button @onclick="OnSearchSubmit" class="btn">Search</button>
-</div>
+            </div>
 
             <div class="dropdown ms-2">
                 <button class="btn deliver-btn dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
@@ -45,9 +45,9 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/Cart/Cart" class="nav-link">
+                    <button class="nav-link" style="background: none; border: none;" @onclick="NavigateToCart">
                         <i class="fas fa-shopping-cart" style="color: orange;"></i>
-                    </a>
+                    </button>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">
@@ -90,8 +90,11 @@
 
     private void OnSearchSubmit()
     {
-        // TODO: Implement your search logic here, e.g., navigate or call API
         Console.WriteLine($"Searching for: {searchTerm}");
-        // For navigation in Blazor, you can inject NavigationManager and navigate to search results page
+    }
+
+    private void NavigateToCart()
+    {
+        Navigation.NavigateTo("/Cart");
     }
 }

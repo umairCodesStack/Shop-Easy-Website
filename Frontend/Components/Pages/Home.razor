@@ -1,4 +1,5 @@
-﻿@page "/"
+﻿@page "/home"
+@page "/home{userId}"
 @using Domain.Entities
 @using Domain.DTOs
 @using Frontend.Services
@@ -34,6 +35,7 @@
 </div>
 <h3 class="text-center text-danger" id="dataDisplay"></h3>
 <div class="row">
+    
     <!-- Sidebar for Filters  -->
     <div class="col-lg-2 pe-0 mt-4">
         <div class="card p-3 h-100" style="min-height: 100vh;">
@@ -97,11 +99,12 @@
                     </form>
                 </div>
             </div>
-
+            
             <!-- Product Cards Grid -->
             <div class="col-lg-10">
                 <div class="d-flex justify-content-center align-items-center border-bottom pb-2 mb-3">
                     <h6 class="mb-0 text-muted me-3"> Showing You 10,000+ Products from verfied suppliers</h6>
+            
                     <div class="dropdown">
                         <button class="btn btn-light dropdown-toggle" type="button" id="sortDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                             Sort By
@@ -116,7 +119,7 @@
                     </div>
                 </div>
                 <!--Products Cards-->
-            <ProductList Products="products" />
+            <ProductList Products="products" userId="@userId" />
 
 </div>
 
@@ -167,6 +170,8 @@
 <Footer></Footer>
 
     @code {
+    [Parameter]
+    public string userId { get; set; }
     private List<GetProductDTO> products;
 
     protected override async Task OnInitializedAsync()

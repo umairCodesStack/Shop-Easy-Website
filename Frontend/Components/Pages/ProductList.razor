@@ -49,7 +49,6 @@
     transform: scale(1.2);
     }
 </style>
-
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
     @if (Products == null || Products.Count == 0)
     {
@@ -61,61 +60,61 @@
         {
             <div class="col">
                 <div class="card h-100 shadow-sm border-0">
-                    <a href="/Home/ProductDetails?ProductId=@product.Id" class="text-decoration-none text-dark">
-                        <div class="product-img" style="background-image:url('@product.ImageUrls?.FirstOrDefault()');"></div>
+                    <div class="product-img" style="background-image:url('@product.ImageUrls?.FirstOrDefault()');"></div>
 
-                        <div class="card-body text-center">
-                            <h5 class="card-title fw-bold">@product.Name</h5>
-                            <p class="card-text text-danger fs-5 fw-semibold">$@product.Price</p>
-                            <p class="card-text text-muted">@product.Description</p>
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">@product.Name</h5>
+                        <p class="card-text text-danger fs-5 fw-semibold">$@product.Price</p>
+                        <p class="card-text text-muted">@product.Description</p>
 
-                            <div class="star-rating mb-2">
-                                @for (int i = 1; i <= 5; i++)
+                        <div class="star-rating mb-2">
+                            @for (int i = 1; i <= 5; i++)
+                            {
+                                if (i <= product.Rating)
                                 {
-                                    if (i <= product.Rating)
-                                    {
-                                        <i class="fas fa-star text-warning"></i>
-                                    }
-                                    else
-                                    {
-                                        <i class="far fa-star text-warning"></i>
-                                    }
+                                    <i class="fas fa-star text-warning"></i>
                                 }
-                            </div>
-
-                            <div class="icon-btn">
-                                <a href="#" title="Like" class="like-icon" onclick="toggleLike(event)">
-                                    <i class="far fa-heart"></i>
-                                </a>
-
-                                <a href="#" title="Share" class="share-icon" onclick="event.preventDefault();">
-                                    <i class="fa-regular fa-paper-plane"></i>
-                                </a>
-
-                                <button @onclick="() => AddToCart(product.Id)" class="cart-icon">
-                                    <i class="fas fa-shopping-cart"></i>
-                                </button>
-
-                                <a href="#" title="Chat" class="chat-icon" onclick="event.preventDefault();">
-                                    <i class="fas fa-comment-dots"></i>
-                                </a>
-                            </div>
-
+                                else
+                                {
+                                    <i class="far fa-star text-warning"></i>
+                                }
+                            }
                         </div>
-                    </a>
+                    </div>
+
+                    <div class="icon-btn">
+                        <button title="Like" type="button">
+                            <i class="far fa-heart"></i>
+                        </button>
+
+                        <button title="Share" type="button">
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </button>
+
+                        <button title="Add to Cart" type="button" @onclick="@(() => AddToCart(product.Id))">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+
+                        <button title="Chat" type="button">
+                            <i class="fas fa-comment-dots"></i>
+                        </button>
+                    </div>
+
                 </div>
             </div>
         }
     }
 </div>
-
 @code {
+    [Parameter]
+    public string userId { get; set; }
     [Parameter]
     public List<GetProductDTO> Products { get; set; }
     private async Task AddToCart(int productId)
     {
         var item = new AddToCartDTO
             {
+                userid = userId, 
                 cartItem=new AddCartItemDTO
                 {
                     productId=productId,

@@ -3,20 +3,59 @@
   "WorkspaceRootPath": "C:\\Files\\Shop-Easy-Website\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|c:\\files\\shop-easy-website\\frontend\\components\\pages\\signupform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\signupform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|c:\\files\\shop-easy-website\\frontend\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|c:\\files\\shop-easy-website\\frontend\\components\\pages\\navbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\navbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|c:\\files\\shop-easy-website\\frontend\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|c:\\files\\shop-easy-website\\frontend\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|c:\\files\\shop-easy-website\\frontend\\components\\pages\\cart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\cart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|c:\\files\\shop-easy-website\\frontend\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|c:\\files\\shop-easy-website\\frontend\\components\\pages\\productlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\productlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|c:\\files\\shop-easy-website\\frontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|c:\\files\\shop-easy-website\\frontend\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|c:\\files\\shop-easy-website\\frontend\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|c:\\files\\shop-easy-website\\frontend\\components\\pages\\cart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\cart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Umair\\AppData\\Local\\Temp\\3mlxlmps..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|c:\\files\\shop-easy-website\\frontend\\components\\pages\\authcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\authcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|c:\\files\\shop-easy-website\\frontend\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\files\\shop-easy-website\\apis\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +92,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|c:\\files\\shop-easy-website\\frontend\\components\\shared\\authnav.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\shared\\authnav.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|c:\\files\\shop-easy-website\\frontend\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2510F6B1-DADA-4E66-B7CA-3345C73E62DC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\files\\shop-easy-website\\apis\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -248,7 +283,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -268,46 +303,176 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "Navbar.razor",
+              "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\Pages\\Navbar.razor",
+              "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Navbar.razor",
+              "ToolTip": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\Pages\\Navbar.razor",
+              "RelativeToolTip": "Frontend\\Components\\Pages\\Navbar.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T11:07:23.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductList.razor",
+              "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\Pages\\ProductList.razor",
+              "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\ProductList.razor",
+              "ToolTip": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\Pages\\ProductList.razor",
+              "RelativeToolTip": "Frontend\\Components\\Pages\\ProductList.razor",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwF8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T10:19:58.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Frontend\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "Frontend\\Services\\AccountService.cs",
+              "ToolTip": "C:\\Files\\Shop-Easy-Website\\Frontend\\Services\\AccountService.cs",
+              "RelativeToolTip": "Frontend\\Services\\AccountService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAswD8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T19:41:03.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Cart.razor",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\Pages\\Cart.razor",
               "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Cart.razor",
               "ToolTip": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\Pages\\Cart.razor",
               "RelativeToolTip": "Frontend\\Components\\Pages\\Cart.razor",
-              "ViewState": "AgIAACoAAAAAAAAAAAAQwDUAAABtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-17T08:00:40.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T08:00:40.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Frontend\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\_Imports.razor",
+              "RelativeToolTip": "Frontend\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T18:15:29.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "Frontend\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-16T17:48:55.308Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "SignupForm.razor",
+              "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\Pages\\SignupForm.razor",
+              "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\SignupForm.razor",
+              "ToolTip": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\Pages\\SignupForm.razor",
+              "RelativeToolTip": "Frontend\\Components\\Pages\\SignupForm.razor",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T09:50:32.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Frontend\\Components\\App.razor",
+              "ToolTip": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\App.razor",
+              "RelativeToolTip": "Frontend\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T11:24:23.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthComponent.razor",
+              "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\Pages\\AuthComponent.razor",
+              "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\AuthComponent.razor",
+              "ToolTip": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\Pages\\AuthComponent.razor",
+              "RelativeToolTip": "Frontend\\Components\\Pages\\AuthComponent.razor",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAIgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T10:00:42.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Error.razor",
+              "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Error.razor",
+              "ToolTip": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\Pages\\Error.razor",
+              "RelativeToolTip": "Frontend\\Components\\Pages\\Error.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T10:02:43.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Frontend\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "Frontend\\Services\\CartService.cs",
+              "ToolTip": "C:\\Files\\Shop-Easy-Website\\Frontend\\Services\\CartService.cs",
+              "RelativeToolTip": "Frontend\\Services\\CartService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAawBAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T10:04:49.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Frontend\\Program.cs",
+              "RelativeDocumentMoniker": "Frontend\\Program.cs",
+              "ToolTip": "C:\\Files\\Shop-Easy-Website\\Frontend\\Program.cs",
+              "RelativeToolTip": "Frontend\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T10:58:26.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Frontend\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Frontend\\Services\\ProductService.cs",
               "ToolTip": "C:\\Files\\Shop-Easy-Website\\Frontend\\Services\\ProductService.cs",
               "RelativeToolTip": "Frontend\\Services\\ProductService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwA0AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T06:50:40.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T06:50:40.457Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
+              "Title": "3mlxlmps..sql",
+              "DocumentMoniker": "C:\\Users\\Umair\\AppData\\Local\\Temp\\3mlxlmps..sql",
+              "RelativeDocumentMoniker": "..\\..\\Users\\Umair\\AppData\\Local\\Temp\\3mlxlmps..sql",
+              "ToolTip": "C:\\Users\\Umair\\AppData\\Local\\Temp\\3mlxlmps..sql",
+              "RelativeToolTip": "..\\..\\Users\\Umair\\AppData\\Local\\Temp\\3mlxlmps..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-17T10:30:26.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "APIs\\Controllers\\CartController.cs",
@@ -315,25 +480,11 @@
               "RelativeToolTip": "APIs\\Controllers\\CartController.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAvwBUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T20:05:48.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T20:05:48.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Frontend\\Services\\AccountService.cs",
-              "RelativeDocumentMoniker": "Frontend\\Services\\AccountService.cs",
-              "ToolTip": "C:\\Files\\Shop-Easy-Website\\Frontend\\Services\\AccountService.cs",
-              "RelativeToolTip": "Frontend\\Services\\AccountService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwA8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T19:41:03.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "Supplier.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Domain\\Entities\\Supplier.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Supplier.cs",
@@ -341,12 +492,11 @@
               "RelativeToolTip": "Domain\\Entities\\Supplier.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T15:54:47.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T15:54:47.473Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Domain\\Entities\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\LoginViewModel.cs",
@@ -354,12 +504,11 @@
               "RelativeToolTip": "Domain\\Entities\\LoginViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T21:22:10.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T21:22:10.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "Frontend\\Components\\Layout\\MainLayout.razor",
@@ -367,12 +516,11 @@
               "RelativeToolTip": "Frontend\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T17:52:23.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T17:52:23.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Infrastructure\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Infrastructure\\ApplicationUser.cs",
@@ -380,12 +528,11 @@
               "RelativeToolTip": "Infrastructure\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T13:38:16.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T13:38:16.302Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "AuthenticationDbContext.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Infrastructure\\AuthenticationDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\AuthenticationDbContext.cs",
@@ -393,12 +540,11 @@
               "RelativeToolTip": "Infrastructure\\AuthenticationDbContext.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T14:05:20.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T14:05:20.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "20250616195143_init.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Migrations\\AuthenticationDb\\20250616195143_init.cs",
               "RelativeDocumentMoniker": "APIs\\Migrations\\AuthenticationDb\\20250616195143_init.cs",
@@ -406,12 +552,11 @@
               "RelativeToolTip": "APIs\\Migrations\\AuthenticationDb\\20250616195143_init.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T19:51:44.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T19:51:44.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "Footer.razor",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\Shared\\Footer.razor",
               "RelativeDocumentMoniker": "Frontend\\Components\\Shared\\Footer.razor",
@@ -419,12 +564,11 @@
               "RelativeToolTip": "Frontend\\Components\\Shared\\Footer.razor",
               "ViewState": "AgIAAA8AAAAAAAAAAIBJwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T18:03:21.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T18:03:21.131Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
               "Title": "AuthNav.razor",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\Shared\\AuthNav.razor",
               "RelativeDocumentMoniker": "Frontend\\Components\\Shared\\AuthNav.razor",
@@ -432,25 +576,11 @@
               "RelativeToolTip": "Frontend\\Components\\Shared\\AuthNav.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T19:08:12.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T19:08:12.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\_Imports.razor",
-              "RelativeDocumentMoniker": "Frontend\\Components\\_Imports.razor",
-              "ToolTip": "C:\\Files\\Shop-Easy-Website\\Frontend\\Components\\_Imports.razor",
-              "RelativeToolTip": "Frontend\\Components\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T18:15:29.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "APIs\\Controllers\\ProductController.cs",
@@ -458,12 +588,11 @@
               "RelativeToolTip": "APIs\\Controllers\\ProductController.cs",
               "ViewState": "AgIAACEAAAAAAAAAAIBJwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T09:20:56.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T09:20:56.301Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 68,
               "Title": "20250616143425_productSupplierRelation.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616143425_productSupplierRelation.cs",
               "RelativeDocumentMoniker": "APIs\\Migrations\\20250616143425_productSupplierRelation.cs",
@@ -471,12 +600,11 @@
               "RelativeToolTip": "APIs\\Migrations\\20250616143425_productSupplierRelation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T14:34:26.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T14:34:26.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Infrastructure\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\ProductRepository.cs",
@@ -484,12 +612,11 @@
               "RelativeToolTip": "Infrastructure\\ProductRepository.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAcwD4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T17:00:59.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T17:00:59.13Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "AddProductDTO.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Domain\\DTOs\\AddProductDTO.cs",
               "RelativeDocumentMoniker": "Domain\\DTOs\\AddProductDTO.cs",
@@ -497,12 +624,11 @@
               "RelativeToolTip": "Domain\\DTOs\\AddProductDTO.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA+wBIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T13:59:17.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T13:59:17.675Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 26,
               "Title": "ProductSize.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Domain\\Entities\\ProductSize.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\ProductSize.cs",
@@ -510,12 +636,11 @@
               "RelativeToolTip": "Domain\\Entities\\ProductSize.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBJwAwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T15:51:07.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T15:51:07.839Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 27,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Application\\ProductService.cs",
               "RelativeDocumentMoniker": "Application\\ProductService.cs",
@@ -523,12 +648,11 @@
               "RelativeToolTip": "Application\\ProductService.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAnwBIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T17:40:20.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T17:40:20.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Domain\\Interfaces\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IProductRepository.cs",
@@ -536,12 +660,11 @@
               "RelativeToolTip": "Domain\\Interfaces\\IProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T17:01:47.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T17:01:47.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 29,
               "Title": "CartRepository.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Infrastructure\\CartRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\CartRepository.cs",
@@ -549,12 +672,11 @@
               "RelativeToolTip": "Infrastructure\\CartRepository.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:36:08.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T15:36:08.016Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "CartItem.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Domain\\Entities\\CartItem.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\CartItem.cs",
@@ -562,12 +684,11 @@
               "RelativeToolTip": "Domain\\Entities\\CartItem.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAA8wBQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T15:25:52.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T15:25:52.653Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 31,
               "Title": "ProductColor.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Domain\\Entities\\ProductColor.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\ProductColor.cs",
@@ -575,12 +696,11 @@
               "RelativeToolTip": "Domain\\Entities\\ProductColor.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBJwAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T15:51:52.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T15:51:52.385Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 32,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website-backup\\ProductController.cs",
               "RelativeDocumentMoniker": "..\\Shop-Easy-Website-backup\\ProductController.cs",
@@ -588,12 +708,11 @@
               "RelativeToolTip": "..\\Shop-Easy-Website-backup\\ProductController.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAmwFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T09:22:02.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T09:22:02.516Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 33,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "APIs\\Controllers\\OrderController.cs",
@@ -601,12 +720,11 @@
               "RelativeToolTip": "APIs\\Controllers\\OrderController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T08:50:44.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T08:50:44.328Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 34,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "APIs\\Controllers\\WeatherForecastController.cs",
@@ -614,12 +732,11 @@
               "RelativeToolTip": "APIs\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T09:07:45.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T09:07:45.516Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 35,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Infrastructure\\OrderRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\OrderRepository.cs",
@@ -627,12 +744,11 @@
               "RelativeToolTip": "Infrastructure\\OrderRepository.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAYwDAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T06:06:54.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T06:06:54.148Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 36,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Application\\OrderService.cs",
               "RelativeDocumentMoniker": "Application\\OrderService.cs",
@@ -640,12 +756,11 @@
               "RelativeToolTip": "Application\\OrderService.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAIwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T08:51:55.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T08:51:55.078Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 38,
               "Title": "GetOrderDTO.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Domain\\DTOs\\GetOrderDTO.cs",
               "RelativeDocumentMoniker": "Domain\\DTOs\\GetOrderDTO.cs",
@@ -653,12 +768,11 @@
               "RelativeToolTip": "Domain\\DTOs\\GetOrderDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T06:04:17.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T06:04:17.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 69,
               "Title": "20250616072151_init.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616072151_init.cs",
               "RelativeDocumentMoniker": "APIs\\Migrations\\20250616072151_init.cs",
@@ -666,12 +780,11 @@
               "RelativeToolTip": "APIs\\Migrations\\20250616072151_init.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T07:21:51.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T07:21:51.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 37,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Domain\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Order.cs",
@@ -679,12 +792,11 @@
               "RelativeToolTip": "Domain\\Entities\\Order.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAiwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T17:12:45.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T17:12:45.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 39,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Infrastructure\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\ApplicationDbContext.cs",
@@ -692,12 +804,11 @@
               "RelativeToolTip": "Infrastructure\\ApplicationDbContext.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAwwBMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T15:59:02.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T15:59:02.331Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 40,
               "Title": "20250616070826_CleanMigrati.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616070826_CleanMigrati.cs",
               "RelativeDocumentMoniker": "APIs\\Migrations\\20250616070826_CleanMigrati.cs",
@@ -708,7 +819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 41,
               "Title": "20250616070755_CleanMigration.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616070755_CleanMigration.cs",
               "RelativeDocumentMoniker": "APIs\\Migrations\\20250616070755_CleanMigration.cs",
@@ -719,7 +830,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 42,
               "Title": "20250616070702_CleanMigrationName.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616070702_CleanMigrationName.cs",
               "RelativeDocumentMoniker": "APIs\\Migrations\\20250616070702_CleanMigrationName.cs",
@@ -730,7 +841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 43,
               "Title": "20250616070441_OrdertableChanged.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616070441_OrdertableChanged.cs",
               "RelativeDocumentMoniker": "APIs\\Migrations\\20250616070441_OrdertableChanged.cs",
@@ -741,7 +852,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 44,
               "Title": "20250616070333_OrderChanged.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616070333_OrderChanged.cs",
               "RelativeDocumentMoniker": "APIs\\Migrations\\20250616070333_OrderChanged.cs",
@@ -752,7 +863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 45,
               "Title": "20250313165329_authentication-init.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Infrastructure\\Migrations\\AuthenticationDb\\20250313165329_authentication-init.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\AuthenticationDb\\20250313165329_authentication-init.cs",
@@ -760,12 +871,11 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\AuthenticationDb\\20250313165329_authentication-init.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T07:03:05.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T07:03:05.791Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 46,
               "Title": "20250616070245_ForOrderChanged.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616070245_ForOrderChanged.cs",
               "RelativeDocumentMoniker": "APIs\\Migrations\\20250616070245_ForOrderChanged.cs",
@@ -776,7 +886,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 47,
               "Title": "20250616065244_SchemaForOrderChanged.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616065244_SchemaForOrderChanged.cs",
               "RelativeDocumentMoniker": "APIs\\Migrations\\20250616065244_SchemaForOrderChanged.cs",
@@ -787,7 +897,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 49,
               "Title": "j4wdhp4t..sql",
               "DocumentMoniker": "C:\\Users\\Umair\\AppData\\Local\\Temp\\j4wdhp4t..sql",
               "RelativeDocumentMoniker": "..\\..\\Users\\Umair\\AppData\\Local\\Temp\\j4wdhp4t..sql",
@@ -798,7 +908,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 48,
               "Title": "Cart.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Domain\\Entities\\Cart.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Cart.cs",
@@ -806,12 +916,11 @@
               "RelativeToolTip": "Domain\\Entities\\Cart.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAIBJwBMAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T15:29:51.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T15:29:51.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 50,
               "Title": "20250616064817_dbSchemaForOrderChanged.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616064817_dbSchemaForOrderChanged.cs",
               "RelativeDocumentMoniker": "APIs\\Migrations\\20250616064817_dbSchemaForOrderChanged.cs",
@@ -822,7 +931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 51,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Domain\\Interfaces\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IOrderRepository.cs",
@@ -830,12 +939,11 @@
               "RelativeToolTip": "Domain\\Interfaces\\IOrderRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T05:35:09.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T05:35:09.775Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 52,
               "Title": "ICartRepository.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Domain\\Interfaces\\ICartRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\ICartRepository.cs",
@@ -843,12 +951,11 @@
               "RelativeToolTip": "Domain\\Interfaces\\ICartRepository.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAuwAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T18:00:27.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T18:00:27.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 53,
               "Title": "AddOrderDTO.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Domain\\DTOs\\AddOrderDTO.cs",
               "RelativeDocumentMoniker": "Domain\\DTOs\\AddOrderDTO.cs",
@@ -856,12 +963,11 @@
               "RelativeToolTip": "Domain\\DTOs\\AddOrderDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T05:57:33.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T05:57:33.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 54,
               "Title": "CartService.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Application\\CartService.cs",
               "RelativeDocumentMoniker": "Application\\CartService.cs",
@@ -869,12 +975,11 @@
               "RelativeToolTip": "Application\\CartService.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAEwBQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T18:04:32.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T18:04:32.83Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 55,
               "Title": "GetCartDTO.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Domain\\DTOs\\GetCartDTO.cs",
               "RelativeDocumentMoniker": "Domain\\DTOs\\GetCartDTO.cs",
@@ -882,12 +987,11 @@
               "RelativeToolTip": "Domain\\DTOs\\GetCartDTO.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAIBZwA0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T07:59:59.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T07:59:59.087Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 56,
               "Title": "Infrastructure.csproj",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
@@ -895,12 +999,11 @@
               "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-26T07:54:20.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T07:54:20.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 57,
               "Title": "SQLQuery3.sql",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\SQLQuery3.sql",
               "RelativeDocumentMoniker": "SQLQuery3.sql",
@@ -911,7 +1014,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 58,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Umair\\Desktop\\New folder\\Shop-Easy-Website\\Ecommere_Website\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\Umair\\Desktop\\New folder\\Shop-Easy-Website\\Ecommere_Website\\Controllers\\AccountController.cs",
@@ -922,7 +1025,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 67,
               "Title": "20250526072355_usertabel.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Migrations\\AuthenticationDb\\20250526072355_usertabel.cs",
               "RelativeDocumentMoniker": "APIs\\Migrations\\AuthenticationDb\\20250526072355_usertabel.cs",
@@ -930,12 +1033,11 @@
               "RelativeToolTip": "APIs\\Migrations\\AuthenticationDb\\20250526072355_usertabel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T07:23:56.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T07:23:56.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 59,
               "Title": "SQLQuery2.sql",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\SQLQuery2.sql",
               "RelativeDocumentMoniker": "SQLQuery2.sql",
@@ -946,7 +1048,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 60,
               "Title": "SQLQuery1.sql",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\SQLQuery1.sql",
               "RelativeDocumentMoniker": "SQLQuery1.sql",
@@ -957,7 +1059,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 61,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "RelativeDocumentMoniker": "..\\..\\Program Files\\dotnet\\sdk\\9.0.102\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
@@ -965,12 +1067,11 @@
               "RelativeToolTip": "..\\..\\Program Files\\dotnet\\sdk\\9.0.102\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "ViewState": "AgIAAAABAAAAAAAAAAAwwAkBAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-05-25T15:19:50.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T15:19:50.131Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 62,
               "Title": "zzpon41q..sql",
               "DocumentMoniker": "C:\\Users\\PMLS\\AppData\\Local\\Temp\\zzpon41q..sql",
               "RelativeDocumentMoniker": "..\\..\\Users\\PMLS\\AppData\\Local\\Temp\\zzpon41q..sql",
@@ -981,7 +1082,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 63,
               "Title": "SQLQuery1.sql",
               "DocumentMoniker": "C:\\Users\\PMLS\\Desktop\\Project\\Shop-Easy-Website\\SQLQuery1.sql",
               "RelativeDocumentMoniker": "..\\..\\Users\\PMLS\\Desktop\\Project\\Shop-Easy-Website\\SQLQuery1.sql",
@@ -992,7 +1093,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 64,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\appsettings.json",
               "RelativeDocumentMoniker": "APIs\\appsettings.json",
@@ -1000,12 +1101,11 @@
               "RelativeToolTip": "APIs\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-20T06:03:44.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T06:03:44.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 65,
               "Title": "ProductViewModel.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Domain\\Entities\\ProductViewModel.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\ProductViewModel.cs",
@@ -1013,12 +1113,11 @@
               "RelativeToolTip": "Domain\\Entities\\ProductViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T07:26:58.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T07:26:58.103Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 66,
               "Title": "Domain.csproj",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "Domain\\Domain.csproj",
@@ -1026,8 +1125,11 @@
               "RelativeToolTip": "Domain\\Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-12T14:00:23.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T14:00:23.38Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             }
           ]
         }

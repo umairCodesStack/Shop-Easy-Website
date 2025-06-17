@@ -1,4 +1,4 @@
-﻿@page "/login"
+﻿@page "/"
 @inject AccountService UserService
 @using System.ComponentModel.DataAnnotations
 @using Frontend.Services
@@ -131,33 +131,14 @@
 
     private async Task HandleLogin()
     {
-        isLoading = true; 
-        loginError = string.Empty;
-
-        try
+        var response = await UserService.LoginUserAsync(loginModel);
+        if (response.status)
         {
-            Console.WriteLine("Calling login API...");
-            var response = await UserService.LoginUserAsync(loginModel);
-            serverMessage = response.message;
-
-            if (response.status)
-            {
-               
-                Navigation.NavigateTo("/");
-            }
-            else
-            {
-                loginError = "Invalid login attempt.";
-            }
+            Navigation.NavigateTo($"/home?userId={response.userId}");
         }
-        catch (Exception ex)
+        else
         {
-            loginError = $"Login failed: {ex.Message}";
-            Console.WriteLine(ex);
-        }
-        finally
-        {
-            isLoading = false;
+            loginError = response.message ?? "An error occurred during signup.";
         }
     }
 
