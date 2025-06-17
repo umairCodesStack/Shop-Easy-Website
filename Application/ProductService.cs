@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Domain.DTOs;
 using Domain.Entities;
 using Domain.Interfaces;
 
@@ -15,7 +16,7 @@ namespace Application
         {
             _repo = repo;
         }
-        public void AddProduct(Product product) 
+        public void AddProduct(AddProductDTO product) 
         {
             _repo.AddProduct(product);
         }
@@ -32,7 +33,7 @@ namespace Application
         {
             return _repo.GetProductById(id);
         }
-        public List<Product> GetAllProducts() 
+        public List<GetProductDTO> GetAllProducts() 
         {
             return _repo.GetAllProducts();
         }

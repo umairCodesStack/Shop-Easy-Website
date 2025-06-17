@@ -15,6 +15,9 @@ namespace Infrastructure
         }
 
         public DbSet<Product> Products { get; set; }
+        public DbSet<Cart> Carts { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<CartItem> CartItems { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
         public DbSet<ProductSize> ProductSizes { get; set; }
         public DbSet<ProductColor> ProductColors { get; set; }
@@ -29,8 +32,12 @@ namespace Infrastructure
                 .HasForeignKey(p => p.SupplierId)
                 .OnDelete(DeleteBehavior.Cascade);
 
+
             // Product-Size Relationship (One-to-Many)
+
+            
             modelBuilder.Entity<Product>()
+                
                 .HasMany(p => p.Sizes)
                 .WithOne(s => s.Product)
                 .HasForeignKey(s => s.ProductId)
@@ -53,7 +60,7 @@ namespace Infrastructure
 
             modelBuilder.Entity<Product>()
                 .Property(p => p.Price)
-                .HasColumnType("decimal(18,2)"); // Correctly placed
+                .HasColumnType("decimal(18,2)"); 
         }
     }
 }

@@ -1,81 +1,70 @@
 ﻿using Application;
+using Domain.DTOs;
 using Domain.Entities;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.OData.Routing.Controllers;
+using Microsoft.AspNetCore.OData.Query;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 
 namespace APIs.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class ProductController : ControllerBase
+    [Route("odata/[controller]")]
+    public class ProductController : ODataController
     {
-		private readonly ProductService _product_service;
+        private readonly ProductService _productService;
 
-		public ProductController(ProductService product_service)
-		{
-			_product_service = product_service;
-		}
+        public ProductController(ProductService productService)
+        {
+            _productService = productService;
+        }
 
-		// GET api/products
-		[HttpGet]
-		public ActionResult<List<Product>> get_all_products()
-		{
-			return _product_service.GetAllProducts();
-		}
+        
+        [EnableQuery]
+        [HttpGet]
+        public IQueryable<GetProductDTO> Get()
+        {
+            return _productService.GetAllProducts().AsQueryable();
+        }
 
-		// GET api/products/5
-		[HttpGet("{product_id:int}")]
-		public ActionResult<Product> get_product_by_id(int product_id)
-		{
-			var product = _product_service.GetProductById(product_id);
-			if (product == null)
-				return NotFound($"Product with id {product_id} not found.");
+       
+        [EnableQuery]
+        [HttpGet("{product_id}")]
+        public IActionResult Get([FromRoute] int product_id)
+        {
+            var product = _productService.GetProductById(product_id);
+            if (product == null)
+                return NotFound($"Product with id {product_id} not found.");
 
-			return product;
-		}
+            return Ok(product);
+        }
 
-		// GET api/products/search?name=aspirin
-		[HttpGet("search")]
-		public ActionResult<List<Product>> search_by_name([FromQuery] string name)
-		{
-			return _product_service.SearchProductByName(name);
-		}
 
-		// GET api/products/category/paracetamol
-		[HttpGet("category/{category}")]
-		public ActionResult<List<Product>> get_by_category(string category)
-		{
-			return _product_service.SearchProductByCatagorey(category);
-		}
+        [HttpPost("AddProduct")]
+        public IActionResult Post([FromBody] AddProductDTO product)
+        {
+             _productService.AddProduct(product);
 
-		// POST api/products
-		[HttpPost]
-		public IActionResult add_product([FromBody] Product product)
-		{
-			_product_service.AddProduct(product);
-			// Assumes Product has an Id property that’s set during Add
-			return CreatedAtAction(nameof(get_product_by_id),
-								   new { product_id = product.Id },
-								   product);
-		}
+            // Assuming createdProduct contains the newly created product with an Id
+            return Ok();
+        }
 
-		// PUT api/products/5
-		[HttpPut("{product_id:int}")]
-		public IActionResult update_product(int product_id, [FromBody] Product product)
-		{
-			if (product_id != product.Id)
-				return BadRequest("Product ids do not match.");
 
-			_product_service.UpdateProduct(product_id);
-			return NoContent();
-		}
 
-		// DELETE api/products/5
-		[HttpDelete("{product_id:int}")]
-		public IActionResult delete_product(int product_id)
-		{
-			_product_service.DeleteProduct(product_id);
-			return NoContent();
-		}
-	}
+        [HttpPut("{product_id}")]
+        public IActionResult Put([FromRoute] int product_id, [FromBody] Product product)
+        {
+            if (product_id != product.Id)
+                return BadRequest("Product IDs do not match.");
+
+            _productService.UpdateProduct(product_id);
+            return NoContent();
+        }
+
+        [HttpDelete("{product_id}")]
+        public IActionResult Delete([FromRoute] int product_id)
+        {
+            _productService.DeleteProduct(product_id);
+            return NoContent();
+        }
+    }
 }

@@ -1,0 +1,169 @@
+﻿@page "/login"
+@inject AccountService UserService
+@using System.ComponentModel.DataAnnotations
+@using Frontend.Services
+@inject IJSRuntime JSRuntime
+@inject NavigationManager Navigation
+
+
+<PageTitle>Login</PageTitle>
+
+<style>
+    .btn-google, .btn-facebook {
+    background-color: white;
+    color: black;
+    border: 2px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .btn-google img, .btn-facebook img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    }
+
+    .btn-google:hover, .btn-facebook:hover {
+    border-color: #ff9900;
+    }
+
+    .logo-img {
+    width: 80px;
+    height: 40px;
+    border-radius: 5%;
+    }
+
+    .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    }
+
+    .auth-container {
+    background: url('/Images/auth_back.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .auth-card {
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    width: 100%;
+    }
+</style>
+<Frontend.Components.Shared.AuthNav></Frontend.Components.Shared.AuthNav>
+<div class="container-fluid auth-container">    
+    <div class="card auth-card p-4">
+        <div class="d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+            <div class="w-100" style="max-width: 400px;">
+                <EditForm Model="loginModel" OnValidSubmit="HandleLogin" FormName="LoginForm">
+                    <DataAnnotationsValidator />
+
+                    <h3 class="text-center bold" style="color: #ff9900;">Login</h3>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <InputText @bind-Value="loginModel.Email" type="email" class="form-control" placeholder="Enter your email" />
+                        <ValidationMessage For="@(() => loginModel.Email)" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <div class="input-group">
+                            <InputText @bind-Value="loginModel.Password" type="@(showPassword ? "text" : "password")" class="form-control" placeholder="Enter your password" />
+                            <button class="btn btn-outline-secondary" type="button" @onclick="TogglePassword">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                        </div>
+                        <ValidationMessage For="@(() => loginModel.Password)" />
+                    </div>
+
+                    <button type="submit" class="btn w-100" style="background-color: #ff9900;" disabled="@isLoading">
+                        @if (isLoading)
+                        {
+                            <span class="spinner-border spinner-border-sm me-2" role="status"></span>
+                            <span>Logging in...</span>
+                        }
+                        else
+                        {
+                            <span>Login</span>
+                        }
+                    </button>
+
+                    <div class="text-center mt-3">
+                        <button type="button" class="btn btn-google w-100 mb-2" @onclick="HandleGoogleLogin">
+                            <img src="/Images/go.png" alt="Google"> Sign in with Google
+                        </button>
+                        <button type="button" class="btn btn-facebook w-100" @onclick="HandleFacebookLogin">
+                            <img src="/Images/fb.png" alt="Facebook"> Sign in with Facebook
+                        </button>
+                    </div>
+
+                    @if (!string.IsNullOrEmpty(loginError))
+                    {
+                        <div class="alert alert-danger mt-3" role="alert">
+                            @loginError
+                        </div>
+                    }
+
+                    <div class="text-center mt-3">
+                        <span>Don't have an account?</span>
+                        <NavLink href="/signup" class="ms-1" style="color: #ff9900;">Sign Up</NavLink>
+                    </div>
+                </EditForm>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private string serverMessage = "";
+    
+    [SupplyParameterFromForm]
+    public LoginDTO loginModel { get; set; } = new LoginDTO();
+    
+    private bool showPassword = false;
+    private bool isLoading = false;
+    private string loginError = string.Empty;
+
+    private async Task HandleLogin()
+    {
+        isLoading = true; 
+        loginError = string.Empty;
+
+        try
+        {
+            Console.WriteLine("Calling login API...");
+            var response = await UserService.LoginUserAsync(loginModel);
+            serverMessage = response.message;
+
+            if (response.status)
+            {
+               
+                Navigation.NavigateTo("/");
+            }
+            else
+            {
+                loginError = "Invalid login attempt.";
+            }
+        }
+        catch (Exception ex)
+        {
+            loginError = $"Login failed: {ex.Message}";
+            Console.WriteLine(ex);
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+   
+
+    private void TogglePassword() => showPassword = !showPassword;
+    private async Task HandleGoogleLogin() { /* Logic here */ }
+    private async Task HandleFacebookLogin() { /* Logic here */ }
+}

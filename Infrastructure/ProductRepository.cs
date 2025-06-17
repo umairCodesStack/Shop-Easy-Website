@@ -1,4 +1,5 @@
-﻿using Domain.Entities;
+﻿using Domain.DTOs;
+using Domain.Entities;
 using Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -16,9 +17,22 @@ namespace Infrastructure
         {
             _context = context;
         }
-        public void AddProduct(Product product)
+        public void AddProduct(AddProductDTO product)
         {
-           _context.Products.Add(product);
+
+            Product newproduct = new Product
+            {
+                Name = product.Name,
+                Description = product.Description,
+                Price = product.Price,
+                Category = product.Category,
+                Rating = product.Rating,
+                StockQuantity = product.StockQuantity,
+                Sizes = product.Sizes.Select(size => new ProductSize { Size = size }).ToList(),
+                Colors = product.Colors.Select(color => new ProductColor { Color = color }).ToList(),
+                ImageUrls = product.ImageUrls.Select(url => new ProductImage { ImageUrl = url }).ToList()
+            };
+           _context.Products.Add(newproduct);
             _context.SaveChanges();
         }
 
@@ -33,11 +47,23 @@ namespace Infrastructure
         }
 
 
-        public List<Product> GetAllProducts()
+        public List<GetProductDTO> GetAllProducts()
         {
             var products = _context.Products
-           .Include(p => p.ImageUrls)
-            .ToList();
+                .Include(p => p.ImageUrls)
+                .Select(p => new GetProductDTO
+                {
+                    Id = p.Id,
+                    Name = p.Name,
+                    Description = p.Description,
+                    Category = p.Category,
+                    StockQuantity = p.StockQuantity,
+                    Price = p.Price,
+                    Rating = p.Rating,
+                    SupplierId = p.SupplierId,
+                    ImageUrls = p.ImageUrls.Select(img => img.ImageUrl).ToList()
+                })
+                .ToList();
             return products;
         }
         public List<Product> SearchProductByName(string name) 
