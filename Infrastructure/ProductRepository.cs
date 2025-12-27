@@ -17,23 +17,39 @@ namespace Infrastructure
         {
             _context = context;
         }
-        public void AddProduct(AddProductDTO product)
+        public Product AddProduct(AddProductDTO product)
         {
+            if (product == null)
+                throw new ArgumentNullException(nameof(product));
+
+            // Validate required fields
+            if (string.IsNullOrWhiteSpace(product.Name))
+                throw new ArgumentException("Product name is required", nameof(product.Name));
+
+            if (product.Price <= 0)
+                throw new ArgumentException("Product price must be greater than zero", nameof(product.Price));
 
             Product newproduct = new Product
             {
                 Name = product.Name,
-                Description = product.Description,
+                Description = product.Description ?? string.Empty,
                 Price = product.Price,
-                Category = product.Category,
+                Category = product.Category ?? string.Empty,
                 Rating = product.Rating,
                 StockQuantity = product.StockQuantity,
-                Sizes = product.Sizes.Select(size => new ProductSize { Size = size }).ToList(),
-                Colors = product.Colors.Select(color => new ProductColor { Color = color }).ToList(),
-                ImageUrls = product.ImageUrls.Select(url => new ProductImage { ImageUrl = url }).ToList()
+                userId = product.UserId,
+                // Safe null-coalescing
+                Sizes = product.Sizes?.Select(size => new ProductSize { Size = size }).ToList(),
+                Colors = product.Colors?.Select(color => new ProductColor { Color = color }).ToList(),
+                         
+                ImageUrls = product.ImageUrls?.Select(url => new ProductImage { ImageUrl = url }).ToList()
+                            
             };
-           _context.Products.Add(newproduct);
+
+            _context.Products.Add(newproduct);
             _context.SaveChanges();
+
+            return newproduct; // Return the created product
         }
 
         public void DeleteProduct(int productId)
@@ -60,7 +76,6 @@ namespace Infrastructure
                     StockQuantity = p.StockQuantity,
                     Price = p.Price,
                     Rating = p.Rating,
-                    SupplierId = p.SupplierId,
                     ImageUrls = p.ImageUrls.Select(img => img.ImageUrl).ToList()
                 })
                 .ToList();

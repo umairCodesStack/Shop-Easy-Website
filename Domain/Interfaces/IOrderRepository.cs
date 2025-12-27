@@ -1,4 +1,5 @@
 ﻿using Domain.DTOs;
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,9 @@ namespace Domain.Interfaces
 {
     public interface IOrderRepository
     {
-        public void AddOrder(AddOrderDTO order);
+        public Order AddOrder(AddOrderDTO order);
         public void CancelOrder(int orderId);
-
+        public bool UpdateOrderStatus(int orderId, string status);
         public GetOrderDTO GetOrderSummary(int orderId);
 
 

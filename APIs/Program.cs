@@ -1,11 +1,15 @@
 using Application;
+using Domain.Entities;
 using Domain.Interfaces;
 using Infrastructure;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.OData;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OData.ModelBuilder;
-using Domain.Entities;
+using System.Text;
+
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,35 +21,53 @@ builder.Services.AddControllers()
                         .Select().Filter().OrderBy().Expand().SetMaxTop(100).Count());
 
 // Add services to the container.
- https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-	options.UseSqlServer(
+	options.UseNpgsql(
 		builder.Configuration.GetConnectionString("DefaultConnection"),
 		b => b.MigrationsAssembly("APIs") 
 	));
-builder.Services.AddDbContext<AuthenticationDbContext>(options =>
-	options.UseSqlServer(
-	builder.Configuration.GetConnectionString("DefaultConnection"),
-	b => b.MigrationsAssembly("APIs")
-	));
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+//builder.Services.AddDbContext<AuthenticationDbContext>(options =>
+//	options.UseSqlServer(
+//	builder.Configuration.GetConnectionString("DefaultConnection"),
+//	b => b.MigrationsAssembly("APIs")
+//	));
+var jwtSettings = builder.Configuration.GetSection("Jwt");
+var secretKey = jwtSettings["SecretKey"] ?? throw new InvalidOperationException("JWT SecretKey is missing");
+
+builder.Services
+    .AddAuthentication(options =>
+    {
+        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+        options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    })
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = jwtSettings["Issuer"],
+            ValidAudience = jwtSettings["Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey)),
+            ClockSkew = TimeSpan.Zero
+        };
+    });
+
+builder.Services.AddAuthorization();
 
 
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
-{
-    options.SignIn.RequireConfirmedAccount = false;
-    options.Password.RequireDigit = true;
-    options.Password.RequiredLength = 6;
-    options.Password.RequireNonAlphanumeric = false;
-    options.Password.RequireUppercase = false;
-    options.Password.RequireLowercase = true;
-})
-.AddEntityFrameworkStores<AuthenticationDbContext>()
-.AddDefaultTokenProviders();
+
 
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<ProductService>();
 builder.Services.AddScoped<ICartRepository, CartRepository>();
 builder.Services.AddScoped<CartService>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<OrderService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddCors(options =>
@@ -72,7 +94,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseCors("AllowAll"); 
+app.UseAuthentication();
 app.UseAuthorization();
+
 
 app.MapControllers();
 

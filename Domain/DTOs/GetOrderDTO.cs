@@ -11,9 +11,17 @@ namespace Domain.DTOs
     {
         public int Id { get; set; }
         public List<Product> products{ get; set; }
-        public decimal ShipppingPrice { get; set; }
-        public decimal TotalPrice { get; set; }
+        public decimal? ShipppingPrice { get; set; }
+        public decimal ?TotalPrice { get; set; }
+        public int? CustomerId { get; set; }
+        public string? CustomerName { get; set; }
+        public string ?Status { get; set; }
 
-       
+        public int? VendorId { get; set; }
+        public string? VendorName { get; set; }
+        public string? Address { get; set; }
+        public DateTime? OrderDate { get; set; }
+
+
     }
 }

@@ -16,10 +16,10 @@ namespace Domain.Entities
         public int StockQuantity { get; set; }
         public decimal Price { get; set; }
         public int Rating { get; set; }
-        public int? SupplierId { get; set; }
-        public Supplier? Supplier { get; set; }
-        public ICollection<ProductSize> Sizes { get; set; } = new HashSet<ProductSize>();
-        public ICollection<ProductColor> Colors { get; set; } = new HashSet<ProductColor>();
-        public ICollection<ProductImage> ImageUrls { get; set; } = new HashSet<ProductImage>();
+        public int userId { get; set; }
+        public User User { get; set; }
+        public ICollection<ProductSize>? Sizes { get; set; } = new HashSet<ProductSize>();
+        public ICollection<ProductColor>? Colors { get; set; } = new HashSet<ProductColor>();
+        public ICollection<ProductImage> ?ImageUrls { get; set; } = new HashSet<ProductImage>();
     }
 }

@@ -8,7 +8,10 @@ namespace Domain.DTOs
 {
     public class AddOrderDTO
     {
-        public int userId {  get; set; }
+        public int customerId {  get; set; }
+        public int vendorId {  get; set; }
         public int cartId {  get; set; }
+        public DateTime? OrderDate { get; set; }
+        public string? Address { get; set; }
     }
 }

@@ -16,9 +16,9 @@ namespace Application
         {
             _repo = repo;
         }
-        public void AddProduct(AddProductDTO product) 
+        public Product AddProduct(AddProductDTO product) 
         {
-            _repo.AddProduct(product);
+            return _repo.AddProduct(product);
         }
 
         public void UpdateProduct(int productId) 

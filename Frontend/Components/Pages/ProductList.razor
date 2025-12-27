@@ -107,7 +107,7 @@
 </div>
 @code {
     [Parameter]
-    public string userId { get; set; }
+    public int userId { get; set; }
     [Parameter]
     public List<GetProductDTO> Products { get; set; }
     private async Task AddToCart(int productId)

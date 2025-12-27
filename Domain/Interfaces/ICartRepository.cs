@@ -10,10 +10,10 @@ namespace Domain.Interfaces
 {
     public interface ICartRepository
     {
-        public void AddToCart(AddToCartDTO cart);
-        public Cart GetCartByUserId(string userId);
-        public void incrementCartItem(int cartItemId);
-        public void RemoveFromCart(int cartItemId);
+        public Cart AddToCart(AddToCartDTO cart);
+        public Cart GetCartByUserId(int userId);
+        public bool incrementCartItem(int cartItemId);
+        public bool RemoveFromCart(int cartItemId);
         
     }
 

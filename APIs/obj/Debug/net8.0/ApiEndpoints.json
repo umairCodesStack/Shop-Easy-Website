@@ -13,13 +13,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "APIs.Controllers.CartController",
@@ -31,7 +25,7 @@
     "Parameters": [
       {
         "Name": "userId",
-        "Type": "System.String",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -74,16 +68,10 @@
       {
         "Name": "cartItemId",
         "Type": "System.Int32",
-        "IsRequired": true
+        "IsRequired": false
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "APIs.Controllers.CartController",
@@ -96,16 +84,10 @@
       {
         "Name": "cartItemId",
         "Type": "System.Int32",
-        "IsRequired": true
+        "IsRequired": false
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "APIs.Controllers.OrderController",
@@ -182,42 +164,53 @@
     ]
   },
   {
-    "ContainingType": "UserController",
-    "Method": "LogIn",
-    "RelativePath": "api/User/login",
+    "ContainingType": "APIs.Controllers.OrderController",
+    "Method": "UpdateOrderStatus",
+    "RelativePath": "api/Order/UpdateOrderStatus",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserAuthController",
+    "Method": "Login",
+    "RelativePath": "api/UserAuth/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "model",
-        "Type": "Domain.Entities.LoginViewModel",
+        "Name": "request",
+        "Type": "LoginRequest",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "UserController",
-    "Method": "LogOut",
-    "RelativePath": "api/User/logout",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "UserController",
-    "Method": "SignUp",
-    "RelativePath": "api/User/signup",
+    "ContainingType": "UserAuthController",
+    "Method": "Signup",
+    "RelativePath": "api/UserAuth/signup",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "model",
-        "Type": "Domain.Entities.RegisterViewModel",
+        "Name": "request",
+        "Type": "Domain.DTOs.AddUserDTO",
         "IsRequired": true
       }
     ],
@@ -335,22 +328,6 @@
   },
   {
     "ContainingType": "APIs.Controllers.ProductController",
-    "Method": "Get",
-    "RelativePath": "odata/Product/{product_id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "product_id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "APIs.Controllers.ProductController",
     "Method": "Put",
     "RelativePath": "odata/Product/{product_id}",
     "HttpMethod": "PUT",
@@ -368,7 +345,8 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [],
+    "EndpointName": "updateProduct"
   },
   {
     "ContainingType": "APIs.Controllers.ProductController",
@@ -384,7 +362,8 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [],
+    "EndpointName": "DeleteProduct"
   },
   {
     "ContainingType": "APIs.Controllers.ProductController",
@@ -398,6 +377,22 @@
         "Name": "product",
         "Type": "Domain.DTOs.AddProductDTO",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIs.Controllers.ProductController",
+    "Method": "Get",
+    "RelativePath": "odata/Product/getProductById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product_id",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

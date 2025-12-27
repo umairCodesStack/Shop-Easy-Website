@@ -16,9 +16,9 @@ namespace Domain.DTOs
         public int StockQuantity { get; set; }
         public decimal Price { get; set; }
         public int Rating { get; set; }
-        public int? SupplierId { get; set; }
-        public List<string> Sizes { get; set; } 
-        public List<string> Colors { get; set; } 
-        public List<string> ImageUrls { get; set; } 
+        public int UserId { get; set; }
+        public List<string>? Sizes { get; set; } 
+        public List<string>? Colors { get; set; } 
+        public List<string> ?ImageUrls { get; set; } 
     }
 }

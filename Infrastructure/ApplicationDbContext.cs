@@ -18,18 +18,45 @@ namespace Infrastructure
         public DbSet<Cart> Carts { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<CartItem> CartItems { get; set; }
-        public DbSet<Supplier> Suppliers { get; set; }
         public DbSet<ProductSize> ProductSizes { get; set; }
         public DbSet<ProductColor> ProductColors { get; set; }
         public DbSet<ProductImage> ProductImages { get; set; }
+        public DbSet<User> Users { get; set; }
+        
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<User>()
+                .HasMany(u => u.Products)
+                .WithOne(p => p.User)
+                .HasForeignKey(p => p.userId)
+                .OnDelete(DeleteBehavior.Cascade);
+            
+
+            modelBuilder.Entity<Cart>()
+                .HasOne(c => c.User)
+                .WithOne(u => u.Carts)
+                .HasForeignKey<Cart>(c => c.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Order>()
+           .HasOne(o => o.Customer)
+           .WithMany(u => u.OrdersAsCustomer)
+           .HasForeignKey(o => o.CustomerId)
+           .OnDelete(DeleteBehavior.Restrict); // Prevent accidental deletion of customer
+
+            // Configure Order-Vendor relationship
+            modelBuilder.Entity<Order>()
+                .HasOne(o => o.Vendor)
+                .WithMany(u => u.OrdersAsVendor)
+                .HasForeignKey(o => o.VendorId)
+                .OnDelete(DeleteBehavior.Restrict);
             // Product-Supplier Relationship (One-to-Many)
+
             modelBuilder.Entity<Product>()
-                .HasOne(p => p.Supplier)
+                .HasOne(p => p.User)
                 .WithMany(s => s.Products)
-                .HasForeignKey(p => p.SupplierId)
+                .HasForeignKey(p => p.userId)
                 .OnDelete(DeleteBehavior.Cascade);
 
 

@@ -16,19 +16,19 @@ namespace Application
         {
             _cartRepository = cartRepository;
         }
-        public void AddToCart(AddToCartDTO cart)
+        public Cart AddToCart(AddToCartDTO cart)
         {
-             _cartRepository.AddToCart(cart);
+             return _cartRepository.AddToCart(cart);
         }
-        public void IncrementCartItem(int cartItemId)
+        public bool IncrementCartItem(int cartItemId)
         {
-            _cartRepository.incrementCartItem(cartItemId);
+           return _cartRepository.incrementCartItem(cartItemId);
         }
-        public void RemoveFromCart(int cartItemId)
+        public bool RemoveFromCart(int cartItemId)
         {
-            _cartRepository.RemoveFromCart(cartItemId);
+            return _cartRepository.RemoveFromCart(cartItemId);
         }
-        public Cart getCartByUserId(string userId)
+        public Cart getCartByUserId(int userId)
         {
             return _cartRepository.GetCartByUserId(userId);
         }

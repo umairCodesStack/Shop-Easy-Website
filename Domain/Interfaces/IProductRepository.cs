@@ -10,7 +10,7 @@ namespace Domain.Interfaces
 {
     public interface IProductRepository
     {
-        public void AddProduct(AddProductDTO product);
+        public Product AddProduct(AddProductDTO product);
 
         public void UpdateProduct(int productId);
         public void DeleteProduct(int productId);

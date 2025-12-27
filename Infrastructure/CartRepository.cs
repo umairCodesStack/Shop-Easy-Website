@@ -18,8 +18,12 @@ namespace Infrastructure
             _context = context;
         }
 
-        public void AddToCart(AddToCartDTO cartDTO)
+        public Cart AddToCart(AddToCartDTO cartDTO)
         {
+            if(cartDTO == null || cartDTO.cartItem == null) 
+            {
+                throw new ArgumentNullException("cartDTO or cartItem is null");
+            }
             Cart cart = _context.Carts
                 .FirstOrDefault(c => c.UserId == cartDTO.userid);
             if (cart == null) 
@@ -43,6 +47,7 @@ namespace Infrastructure
                 };
                 var cart1=_context.Carts.Add(cart);
                 _context.SaveChanges();
+                return cart;
                 
             }
             else
@@ -67,11 +72,12 @@ namespace Infrastructure
                     _context.Carts.Update(cart);
                     _context.SaveChanges();
                 }
+                return cart;
             }
             
 
         }
-        public Cart GetCartByUserId(string userId)
+        public Cart GetCartByUserId(int userId)
         {
             return   _context.Carts
                 .Include(c => c.Items)
@@ -79,17 +85,19 @@ namespace Infrastructure
                 .FirstOrDefault(c => c.UserId == userId);
             
         }
-        public void RemoveFromCart(int cartItemId)
+        public bool RemoveFromCart(int cartItemId)
         {
             var cartItem = _context.CartItems.Find(cartItemId);
             if (cartItem != null)
             {
                 _context.CartItems.Remove(cartItem);
                 _context.SaveChanges();
+                return true;
             }
-            
+            return false;
+
         }
-        public void incrementCartItem(int cartItemId) 
+        public bool incrementCartItem(int cartItemId) 
         {
             var cartItem = _context.CartItems.Find(cartItemId);
             if (cartItem != null)
@@ -97,7 +105,10 @@ namespace Infrastructure
                 cartItem.Quantity++;
                 _context.CartItems.Update(cartItem);
                 _context.SaveChanges();
+                return true;
             }
+            return false;
+
         }
 
     }

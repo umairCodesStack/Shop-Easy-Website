@@ -19,24 +19,39 @@ namespace APIs.Controllers
         }
 
         [HttpPost ("AddToCart")]
-        public void AddToCart([FromBody] AddToCartDTO value)
+        public IActionResult AddToCart([FromBody] AddToCartDTO value)
         {
             _cartService.AddToCart(value);
+            return Ok( new { message = "Item added to cart successfully." });
 
-                
+
         }
         [HttpPost("IncrementCartItem")]
-        public void IncrementCartItem([FromBody] int cartItemId)
+        public IActionResult IncrementCartItem([FromQuery] int cartItemId)
         {
-            _cartService.IncrementCartItem(cartItemId);
+            if(_cartService.IncrementCartItem(cartItemId)) 
+            {
+                return Ok(new { message = "Cart item incremented successfully." });
+            }
+            else 
+            {
+                return BadRequest(new { message = "Failed to increment cart item." });
+            }
         }
         [HttpPost("RemoveFromCart")]
-        public void RemoveFromCart([FromBody] int cartItemId)
+        public IActionResult RemoveFromCart([FromQuery] int cartItemId)
         {
-            _cartService.RemoveFromCart(cartItemId);
+            if (_cartService.RemoveFromCart(cartItemId))
+            {
+                return Ok(new { message = "Cart item removed successfully." });
+            }
+            else
+            {
+                return BadRequest(new { message = "Failed to remove cart item." });
+            }
         }
         [HttpGet("GetCartByUserId/{userId}")]
-        public ActionResult<Cart> GetCartByUserId(string userId)
+        public ActionResult<Cart> GetCartByUserId(int userId)
         {
             var cart = _cartService.getCartByUserId(userId);
             if (cart == null)

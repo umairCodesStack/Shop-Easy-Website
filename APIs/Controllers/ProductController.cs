@@ -1,9 +1,10 @@
 ﻿using Application;
 using Domain.DTOs;
 using Domain.Entities;
-using Microsoft.AspNetCore.OData.Routing.Controllers;
-using Microsoft.AspNetCore.OData.Query;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.OData.Query;
+using Microsoft.AspNetCore.OData.Routing.Controllers;
 using System.Linq;
 
 namespace APIs.Controllers
@@ -28,8 +29,8 @@ namespace APIs.Controllers
 
        
         [EnableQuery]
-        [HttpGet("{product_id}")]
-        public IActionResult Get([FromRoute] int product_id)
+        [HttpGet("getProductById")]
+        public IActionResult Get([FromQuery] int product_id)
         {
             var product = _productService.GetProductById(product_id);
             if (product == null)
@@ -37,20 +38,24 @@ namespace APIs.Controllers
 
             return Ok(product);
         }
-
-
         [HttpPost("AddProduct")]
+        [Authorize(Roles = "Admin,Vendor")]
         public IActionResult Post([FromBody] AddProductDTO product)
         {
-             _productService.AddProduct(product);
+             Product createdProduct=_productService.AddProduct(product);
 
-            // Assuming createdProduct contains the newly created product with an Id
-            return Ok();
+            if(createdProduct==null)
+                return BadRequest("Product could not be created.");
+            return Ok(new
+            {
+                message = "Product Added Successfully",
+                product = createdProduct,
+                productId = createdProduct.Id,
+                timestamp = DateTime.UtcNow
+            });
         }
-
-
-
-        [HttpPut("{product_id}")]
+        [HttpPut("{product_id}",Name ="updateProduct")]
+        [Authorize(Roles = "Admin,Vendor")]
         public IActionResult Put([FromRoute] int product_id, [FromBody] Product product)
         {
             if (product_id != product.Id)
@@ -60,7 +65,8 @@ namespace APIs.Controllers
             return NoContent();
         }
 
-        [HttpDelete("{product_id}")]
+        [HttpDelete("{product_id}", Name = "DeleteProduct")]
+        [Authorize(Roles = "Admin,Vendor")]
         public IActionResult Delete([FromRoute] int product_id)
         {
             _productService.DeleteProduct(product_id);
