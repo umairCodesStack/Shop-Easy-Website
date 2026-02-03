@@ -14,7 +14,7 @@ namespace Domain.Interfaces
 
         public void UpdateProduct(int productId);
         public void DeleteProduct(int productId);
-        public Product GetProductById(int id);
+        public GetProductDTO GetProductById(int id);
         public List<GetProductDTO> GetAllProducts();
         public List<Product> SearchProductByName(string name);
         public List<Product> SearchProductByCatagorey(string catagorey);

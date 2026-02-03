@@ -14,6 +14,8 @@ namespace Domain.Interfaces
         public void CancelOrder(int orderId);
         public bool UpdateOrderStatus(int orderId, string status);
         public GetOrderDTO GetOrderSummary(int orderId);
+        public List<GetOrderDTO> GetOrdersByVendorId(int vendorId);
+
 
 
     }

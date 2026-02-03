@@ -40,6 +40,12 @@ namespace APIs.Controllers
         {
             return Ok(_orderService.GetOrderSummary(userId));
         }
+        [HttpGet("GetOrders")]
+        public ActionResult<List<GetOrderDTO>> getOrdersforVendor(int vendorId)
+        {
+            return Ok(_orderService.GetOrdersByVendorId(vendorId));
+        }
+
         [HttpPut("UpdateOrderStatus")]
         [Authorize(Roles ="Admin,Vendor")]
         public IActionResult UpdateOrderStatus(int orderId, string status) 

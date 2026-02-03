@@ -29,7 +29,7 @@ namespace Application
         {
             _repo.DeleteProduct(productId);
         }
-        public Product GetProductById(int id) 
+        public GetProductDTO GetProductById(int id) 
         {
             return _repo.GetProductById(id);
         }

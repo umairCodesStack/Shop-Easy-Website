@@ -56,7 +56,10 @@ namespace APIs.Controllers
             var cart = _cartService.getCartByUserId(userId);
             if (cart == null)
                 return NotFound($"Cart for user {userId} not found.");
-            return cart;
+            return Ok(new
+            {
+                cartItmes = cart
+            });
         }
         }
 }

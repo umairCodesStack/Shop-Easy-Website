@@ -79,11 +79,10 @@ namespace Infrastructure
         }
         public Cart GetCartByUserId(int userId)
         {
-            return   _context.Carts
+            return _context.Carts
                 .Include(c => c.Items)
                 .ThenInclude(ci => ci.Product)
                 .FirstOrDefault(c => c.UserId == userId);
-            
         }
         public bool RemoveFromCart(int cartItemId)
         {

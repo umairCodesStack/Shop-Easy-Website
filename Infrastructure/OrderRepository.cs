@@ -76,7 +76,8 @@ namespace Infrastructure
             var orderSummary = new GetOrderDTO
             {
                 Id = order.Id,
-                products = productList
+                products = productList,
+                Status= order.Status,
             };
 
             return orderSummary;

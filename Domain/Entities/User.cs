@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Domain.Entities
@@ -18,8 +19,11 @@ namespace Domain.Entities
         public string? PhoneNumber { get; set; }
         public string? imageUrl { get; set; }
         public Cart Carts { get; set; }
+        [JsonIgnore]
         public ICollection<Order> OrdersAsCustomer { get; set; } = new HashSet<Order>();
+        [JsonIgnore]
         public ICollection<Order> OrdersAsVendor { get; set; } = new HashSet<Order>();
+        [JsonIgnore]
         public ICollection<Product> Products { get; set; }
 
     }

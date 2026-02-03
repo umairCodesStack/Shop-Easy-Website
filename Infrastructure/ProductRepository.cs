@@ -76,6 +76,7 @@ namespace Infrastructure
                     StockQuantity = p.StockQuantity,
                     Price = p.Price,
                     Rating = p.Rating,
+                    SupplierId = p.userId,
                     ImageUrls = p.ImageUrls.Select(img => img.ImageUrl).ToList()
                 })
                 .ToList();
@@ -99,9 +100,23 @@ namespace Infrastructure
            .ToList();
             return products;
         }
-        public Product GetProductById(int Id)
+        public GetProductDTO GetProductById(int Id)
         {
-            Product product = _context.Products.Include(p => p.ImageUrls).FirstOrDefault(p => p.Id==Id);
+            var product = _context.Products
+                 .Include(p => p.ImageUrls)
+                 .Select(p => new GetProductDTO
+                 {
+                     Id = p.Id,
+                     Name = p.Name,
+                     Description = p.Description,
+                     Category = p.Category,
+                     StockQuantity = p.StockQuantity,
+                     Price = p.Price,
+                     Rating = p.Rating,
+                     SupplierId=p.userId,
+                     ImageUrls = p.ImageUrls.Select(img => img.ImageUrl).ToList()
+                 })
+                 .FirstOrDefault(p=>p.Id==Id);
             return product;
         }
 

@@ -28,6 +28,10 @@ namespace Application
         {
             return _repo.GetOrderSummary(orderId);
         }
+        public List<GetOrderDTO> GetOrdersByVendorId(int vendorId)
+        {
+            return _repo.GetOrdersByVendorId(vendorId);
+        }
         public bool UpdateOrderStatus(int orderId, string status) 
         {
             return _repo.UpdateOrderStatus(orderId, status);

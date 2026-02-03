@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Domain.Entities
@@ -17,9 +18,13 @@ namespace Domain.Entities
         public decimal Price { get; set; }
         public int Rating { get; set; }
         public int userId { get; set; }
+        [JsonIgnore]
         public User User { get; set; }
+        [JsonIgnore]
         public ICollection<ProductSize>? Sizes { get; set; } = new HashSet<ProductSize>();
+        [JsonIgnore]
         public ICollection<ProductColor>? Colors { get; set; } = new HashSet<ProductColor>();
+        [JsonIgnore]
         public ICollection<ProductImage> ?ImageUrls { get; set; } = new HashSet<ProductImage>();
     }
 }
