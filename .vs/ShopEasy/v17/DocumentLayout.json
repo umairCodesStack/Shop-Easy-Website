@@ -3,76 +3,204 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CCE84628-7C72-45F8-8C77-9EA4AEE94C13}|Infrastructure\\Infrastructure.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\infrastructure\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCE84628-7C72-45F8-8C77-9EA4AEE94C13}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCE84628-7C72-45F8-8C77-9EA4AEE94C13}|Infrastructure\\Infrastructure.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\infrastructure\\storerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCE84628-7C72-45F8-8C77-9EA4AEE94C13}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\storerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CCE84628-7C72-45F8-8C77-9EA4AEE94C13}|Infrastructure\\Infrastructure.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\infrastructure\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCE84628-7C72-45F8-8C77-9EA4AEE94C13}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCE84628-7C72-45F8-8C77-9EA4AEE94C13}|Infrastructure\\Infrastructure.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\infrastructure\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCE84628-7C72-45F8-8C77-9EA4AEE94C13}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D9C29D9-2986-4BEC-A00E-AE3BA61B02EB}|Application\\Application.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\application\\storeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D9C29D9-2986-4BEC-A00E-AE3BA61B02EB}|Application\\Application.csproj|solutionrelative:application\\storeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\interfaces\\istorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\istorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D9C29D9-2986-4BEC-A00E-AE3BA61B02EB}|Application\\Application.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\application\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D9C29D9-2986-4BEC-A00E-AE3BA61B02EB}|Application\\Application.csproj|solutionrelative:application\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\getstoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\getstoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\controllers\\userauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\controllers\\userauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\entities\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCE84628-7C72-45F8-8C77-9EA4AEE94C13}|Infrastructure\\Infrastructure.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\infrastructure\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCE84628-7C72-45F8-8C77-9EA4AEE94C13}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCE84628-7C72-45F8-8C77-9EA4AEE94C13}|Infrastructure\\Infrastructure.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\infrastructure\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCE84628-7C72-45F8-8C77-9EA4AEE94C13}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\adduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\adduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\getorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\getorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D9C29D9-2986-4BEC-A00E-AE3BA61B02EB}|Application\\Application.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\application\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D9C29D9-2986-4BEC-A00E-AE3BA61B02EB}|Application\\Application.csproj|solutionrelative:application\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CCE84628-7C72-45F8-8C77-9EA4AEE94C13}|Infrastructure\\Infrastructure.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\infrastructure\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCE84628-7C72-45F8-8C77-9EA4AEE94C13}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\getcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\getcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\addorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\addorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\getproductdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\getproductdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\getproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\getproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CCE84628-7C72-45F8-8C77-9EA4AEE94C13}|Infrastructure\\Infrastructure.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCE84628-7C72-45F8-8C77-9EA4AEE94C13}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\getcartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\getcartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\getorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\getorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D9C29D9-2986-4BEC-A00E-AE3BA61B02EB}|Application\\Application.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\application\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D9C29D9-2986-4BEC-A00E-AE3BA61B02EB}|Application\\Application.csproj|solutionrelative:application\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\entities\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\interfaces\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\addproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\addproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\updatepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\updatepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\updatestoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\updatestoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\addstoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\addstoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\entities\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\migrations\\20260216181159_email-unique-constrai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\migrations\\20260216181159_email-unique-constrai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260216180136_email-unique-constraint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:APIs\\Migrations\\20260216180136_email-unique-constraint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\getreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\getreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\entities\\productsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\productsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\entities\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,10 +209,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\interfaces\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\cartitemresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,56 +223,12 @@
       "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\cartresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\addorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\addorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\getorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\getorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\addproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\addproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\entities\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\adduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\adduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\entities\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\dtos\\getcartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\getcartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\entities\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -160,10 +240,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\entities\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\entities\\productsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\productsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{223A753E-3122-40CC-927C-40220A737AB2}|Domain\\Domain.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\domain\\entities\\productcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -315,6 +391,50 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Frontend\\Components\\Shared\\AuthNav.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\Components\\Shared\\AuthNav.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\migrations\\20260214170950_producttableratingcolupdatetodouble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\migrations\\20260214170950_producttableratingcolupdatetodouble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\migrations\\20260214165135_producttableupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\migrations\\20260214165135_producttableupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\migrations\\20260218104724_store-table-update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\migrations\\20260218104724_store-table-update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\migrations\\20260222133046_order-table-newcols-changed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\migrations\\20260222133046_order-table-newcols-changed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\migrations\\20260222122515_order-item-with-pid-changed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\migrations\\20260222122515_order-item-with-pid-changed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\migrations\\20260222121522_order-table-cols-changed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\migrations\\20260222121522_order-table-cols-changed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\migrations\\20260222102912_order-item-cols-changed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\migrations\\20260222102912_order-item-cols-changed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\migrations\\20260222102303_order-schema-changed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\migrations\\20260222102303_order-schema-changed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\migrations\\20260222181716_cancel-model-in-order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\migrations\\20260222181716_cancel-model-in-order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\migrations\\20260222161202_paymentstatuscol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\migrations\\20260222161202_paymentstatuscol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|c:\\users\\lenovo\\source\\repos\\shop-easy-website\\apis\\migrations\\20260223174959_store-table-updated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FD74B4-72F9-40DB-8E45-AF4631AB4896}|APIs\\APIs.csproj|solutionrelative:apis\\migrations\\20260223174959_store-table-updated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -324,7 +444,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -344,54 +464,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "APIs\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "APIs\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAwBYAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "StoreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Infrastructure\\StoreRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\StoreRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Infrastructure\\StoreRepository.cs",
+              "RelativeToolTip": "Infrastructure\\StoreRepository.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAcwLoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T09:20:56.301Z",
+              "WhenOpened": "2026-02-15T16:53:18.839Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Interfaces\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Interfaces\\IProductRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IProductRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Title": "IStoreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Interfaces\\IStoreRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IStoreRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Interfaces\\IStoreRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IStoreRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T17:01:47.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Infrastructure\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Infrastructure\\ProductRepository.cs",
-              "RelativeToolTip": "Infrastructure\\ProductRepository.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAA1wE4AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T17:00:59.13Z",
+              "WhenOpened": "2026-02-15T16:54:42.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Application\\ProductService.cs",
-              "RelativeDocumentMoniker": "Application\\ProductService.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Application\\ProductService.cs",
-              "RelativeToolTip": "Application\\ProductService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAArwB8AAAAcAAAAAAAAAA==",
+              "Title": "StoreService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Application\\StoreService.cs",
+              "RelativeDocumentMoniker": "Application\\StoreService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Application\\StoreService.cs",
+              "RelativeToolTip": "Application\\StoreService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA/wDAAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T17:40:20.402Z",
+              "WhenOpened": "2026-02-15T16:55:24.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StoreController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Controllers\\StoreController.cs",
+              "RelativeDocumentMoniker": "APIs\\Controllers\\StoreController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Controllers\\StoreController.cs",
+              "RelativeToolTip": "APIs\\Controllers\\StoreController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvx0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T18:19:28.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Infrastructure\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Infrastructure\\OrderRepository.cs",
+              "RelativeToolTip": "Infrastructure\\OrderRepository.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAqwOkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T06:06:54.148Z",
               "EditorCaption": ""
             },
             {
@@ -402,35 +535,36 @@
               "RelativeDocumentMoniker": "Infrastructure\\UserRepository.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Infrastructure\\UserRepository.cs",
               "RelativeToolTip": "Infrastructure\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCkAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-26T12:01:43.427Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAowB4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Application\\ProductService.cs",
+              "RelativeDocumentMoniker": "Application\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Application\\ProductService.cs",
+              "RelativeToolTip": "Application\\ProductService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAArwBcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T11:27:44.432Z",
+              "WhenOpened": "2025-03-13T17:40:20.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "APIs\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "APIs\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
+              "Title": "GetStoreDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\GetStoreDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\GetStoreDTO.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\GetStoreDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\GetStoreDTO.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T09:07:45.516Z"
+              "WhenOpened": "2026-02-18T10:05:07.415Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -440,93 +574,119 @@
               "RelativeDocumentMoniker": "APIs\\Controllers\\UserAuthController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Controllers\\UserAuthController.cs",
               "RelativeToolTip": "APIs\\Controllers\\UserAuthController.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAIwMMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAwIgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T11:06:11.824Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "APIs\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Controllers\\CartController.cs",
-              "RelativeToolTip": "APIs\\Controllers\\CartController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAQwDcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T20:05:48.476Z"
+              "WhenOpened": "2025-12-26T11:06:11.824Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T11:55:37.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "APIs\\Controllers\\OrderController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Controllers\\OrderController.cs",
               "RelativeToolTip": "APIs\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAQwC0AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwC4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T08:50:44.328Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Infrastructure\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\OrderRepository.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Infrastructure\\OrderRepository.cs",
-              "RelativeToolTip": "Infrastructure\\OrderRepository.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAiwHcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T06:06:54.148Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IOrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Interfaces\\IOrderRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IOrderRepository.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Interfaces\\IOrderRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IOrderRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA+wBAAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T05:35:09.775Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Application\\OrderService.cs",
-              "RelativeDocumentMoniker": "Application\\OrderService.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Application\\OrderService.cs",
-              "RelativeToolTip": "Application\\OrderService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAwCAAAAA3AAAAAAAAAA==",
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA/wCAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T08:51:55.078Z"
+              "WhenOpened": "2025-12-26T11:27:44.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "20260223174959_store-table-updated.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260223174959_store-table-updated.cs",
+              "RelativeDocumentMoniker": "APIs\\Migrations\\20260223174959_store-table-updated.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260223174959_store-table-updated.cs",
+              "RelativeToolTip": "APIs\\Migrations\\20260223174959_store-table-updated.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T17:50:00.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Store.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\Store.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Store.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\Store.cs",
+              "RelativeToolTip": "Domain\\Entities\\Store.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwCIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T18:23:54.492Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "CartRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Infrastructure\\CartRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\CartRepository.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Infrastructure\\CartRepository.cs",
-              "RelativeToolTip": "Infrastructure\\CartRepository.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAewFEAAAAMAAAAAAAAAA==",
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Infrastructure\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Infrastructure\\ProductRepository.cs",
+              "RelativeToolTip": "Infrastructure\\ProductRepository.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAQwIAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:36:08.016Z"
+              "WhenOpened": "2025-03-13T17:00:59.13Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ICartRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Interfaces\\ICartRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\ICartRepository.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Interfaces\\ICartRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\ICartRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAATAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "AddUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\AddUserDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\AddUserDTO.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\AddUserDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\AddUserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T18:00:27.574Z"
+              "WhenOpened": "2025-12-26T11:57:04.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "Domain\\Entities\\Order.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T17:12:45.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetOrderDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\GetOrderDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\GetOrderDTO.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\GetOrderDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\GetOrderDTO.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T06:04:17.039Z"
             },
             {
               "$type": "Document",
@@ -536,301 +696,493 @@
               "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\User.cs",
               "RelativeToolTip": "Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBkAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAjwA4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-26T10:45:22.276Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\CartItem.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\CartItem.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\CartItem.cs",
-              "RelativeToolTip": "Domain\\Entities\\CartItem.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Application\\OrderService.cs",
+              "RelativeDocumentMoniker": "Application\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Application\\OrderService.cs",
+              "RelativeToolTip": "Application\\OrderService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwCwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T15:25:52.653Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CartService.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Application\\CartService.cs",
-              "RelativeDocumentMoniker": "Application\\CartService.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Application\\CartService.cs",
-              "RelativeToolTip": "Application\\CartService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAewCAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T18:04:32.83Z"
+              "WhenOpened": "2025-06-16T08:51:55.078Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\Cart.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Cart.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\Cart.cs",
-              "RelativeToolTip": "Domain\\Entities\\Cart.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBMAAAA7AAAAAAAAAA==",
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Interfaces\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Interfaces\\IOrderRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T15:29:51.399Z"
+              "WhenOpened": "2025-06-16T05:35:09.775Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Infrastructure\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Infrastructure\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAuwFoAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Infrastructure\\CartRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\CartRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Infrastructure\\CartRepository.cs",
+              "RelativeToolTip": "Infrastructure\\CartRepository.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAcwHEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T15:59:02.331Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ProductImage.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\ProductImage.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\ProductImage.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\ProductImage.cs",
-              "RelativeToolTip": "Domain\\Entities\\ProductImage.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA4AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T18:53:47.188Z"
+              "WhenOpened": "2025-05-26T15:36:08.016Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "CartItemResponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\CartItemResponseDTO.cs",
-              "RelativeDocumentMoniker": "Domain\\DTOs\\CartItemResponseDTO.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\CartItemResponseDTO.cs",
-              "RelativeToolTip": "Domain\\DTOs\\CartItemResponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Title": "GetCustomerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\GetCustomerDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\GetCustomerDTO.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\GetCustomerDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\GetCustomerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T18:27:56.849Z"
+              "WhenOpened": "2026-02-23T12:16:13.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "20260222161202_paymentStatusCol.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260222161202_paymentStatusCol.cs",
+              "RelativeDocumentMoniker": "APIs\\Migrations\\20260222161202_paymentStatusCol.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260222161202_paymentStatusCol.cs",
+              "RelativeToolTip": "APIs\\Migrations\\20260222161202_paymentStatusCol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T16:12:02.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "20260222181716_cancel-model-in-order.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260222181716_cancel-model-in-order.cs",
+              "RelativeDocumentMoniker": "APIs\\Migrations\\20260222181716_cancel-model-in-order.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260222181716_cancel-model-in-order.cs",
+              "RelativeToolTip": "APIs\\Migrations\\20260222181716_cancel-model-in-order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T18:17:16.847Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "UserSummaryDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\UserSummaryDTO.cs",
-              "RelativeDocumentMoniker": "Domain\\DTOs\\UserSummaryDTO.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\UserSummaryDTO.cs",
-              "RelativeToolTip": "Domain\\DTOs\\UserSummaryDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T18:27:14.528Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CartResponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\CartResponseDTO.cs",
-              "RelativeDocumentMoniker": "Domain\\DTOs\\CartResponseDTO.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\CartResponseDTO.cs",
-              "RelativeToolTip": "Domain\\DTOs\\CartResponseDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T18:22:39.872Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\Order.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Order.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\Order.cs",
-              "RelativeToolTip": "Domain\\Entities\\Order.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAIAwwBcAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T17:12:45.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "GetOrderDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\GetOrderDTO.cs",
-              "RelativeDocumentMoniker": "Domain\\DTOs\\GetOrderDTO.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\GetOrderDTO.cs",
-              "RelativeToolTip": "Domain\\DTOs\\GetOrderDTO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T06:04:17.039Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "20251227142834_orderAddressColumn.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20251227142834_orderAddressColumn.cs",
-              "RelativeDocumentMoniker": "APIs\\Migrations\\20251227142834_orderAddressColumn.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20251227142834_orderAddressColumn.cs",
-              "RelativeToolTip": "APIs\\Migrations\\20251227142834_orderAddressColumn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T14:28:34.949Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
               "Title": "AddOrderDTO.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\AddOrderDTO.cs",
               "RelativeDocumentMoniker": "Domain\\DTOs\\AddOrderDTO.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\AddOrderDTO.cs",
               "RelativeToolTip": "Domain\\DTOs\\AddOrderDTO.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAjwAwAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T05:57:33.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "20251227140103_orderStatusColumn.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20251227140103_orderStatusColumn.cs",
-              "RelativeDocumentMoniker": "APIs\\Migrations\\20251227140103_orderStatusColumn.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20251227140103_orderStatusColumn.cs",
-              "RelativeToolTip": "APIs\\Migrations\\20251227140103_orderStatusColumn.cs",
+              "DocumentIndex": 23,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAMwA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T17:01:47.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetProductDetailDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\GetProductDetailDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\GetProductDetailDTO.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\GetProductDetailDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\GetProductDetailDTO.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wBsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T16:13:26.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GetProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\GetProductDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\GetProductDTO.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\GetProductDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\GetProductDTO.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T15:10:45.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "20260222133046_order-table-newCols-changed.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260222133046_order-table-newCols-changed.cs",
+              "RelativeDocumentMoniker": "APIs\\Migrations\\20260222133046_order-table-newCols-changed.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260222133046_order-table-newCols-changed.cs",
+              "RelativeToolTip": "APIs\\Migrations\\20260222133046_order-table-newCols-changed.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T14:01:03.799Z"
+              "WhenOpened": "2026-02-22T13:30:46.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "20260222122515_order-item-with-pId-changed.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260222122515_order-item-with-pId-changed.cs",
+              "RelativeDocumentMoniker": "APIs\\Migrations\\20260222122515_order-item-with-pId-changed.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260222122515_order-item-with-pId-changed.cs",
+              "RelativeToolTip": "APIs\\Migrations\\20260222122515_order-item-with-pId-changed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T12:25:15.663Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "Domain\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T10:02:09.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Infrastructure\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Infrastructure\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\ApplicationDbContext.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T15:59:02.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OrderItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\OrderItemDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\OrderItemDTO.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\OrderItemDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\OrderItemDTO.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T10:26:53.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "20260222121522_order-table-cols-changed.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260222121522_order-table-cols-changed.cs",
+              "RelativeDocumentMoniker": "APIs\\Migrations\\20260222121522_order-table-cols-changed.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260222121522_order-table-cols-changed.cs",
+              "RelativeToolTip": "APIs\\Migrations\\20260222121522_order-table-cols-changed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T12:15:23.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GetCartDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\GetCartDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\GetCartDTO.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\GetCartDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\GetCartDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T07:59:59.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GetOrderItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\GetOrderItemDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\GetOrderItemDTO.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\GetOrderItemDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\GetOrderItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T10:45:49.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "20260222102912_order-item-cols-changed.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260222102912_order-item-cols-changed.cs",
+              "RelativeDocumentMoniker": "APIs\\Migrations\\20260222102912_order-item-cols-changed.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260222102912_order-item-cols-changed.cs",
+              "RelativeToolTip": "APIs\\Migrations\\20260222102912_order-item-cols-changed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T10:29:12.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "20260222102303_order-schema-changed.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260222102303_order-schema-changed.cs",
+              "RelativeDocumentMoniker": "APIs\\Migrations\\20260222102303_order-schema-changed.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260222102303_order-schema-changed.cs",
+              "RelativeToolTip": "APIs\\Migrations\\20260222102303_order-schema-changed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T10:23:04.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "APIs\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Controllers\\CartController.cs",
+              "RelativeToolTip": "APIs\\Controllers\\CartController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAswEAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T20:05:48.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Application\\CartService.cs",
+              "RelativeDocumentMoniker": "Application\\CartService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Application\\CartService.cs",
+              "RelativeToolTip": "Application\\CartService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwCMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T18:04:32.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Program.cs",
               "RelativeDocumentMoniker": "APIs\\Program.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Program.cs",
               "RelativeToolTip": "APIs\\Program.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAYwEUAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwEMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-26T10:54:31.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "20251227134648_orderSchemaChanged.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20251227134648_orderSchemaChanged.cs",
-              "RelativeDocumentMoniker": "APIs\\Migrations\\20251227134648_orderSchemaChanged.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20251227134648_orderSchemaChanged.cs",
-              "RelativeToolTip": "APIs\\Migrations\\20251227134648_orderSchemaChanged.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 34,
+              "Title": "ICartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Interfaces\\ICartRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\ICartRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Interfaces\\ICartRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\ICartRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T13:46:48.37Z"
+              "WhenOpened": "2025-05-25T18:00:27.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "20251227125447_productTableChanged.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20251227125447_productTableChanged.cs",
-              "RelativeDocumentMoniker": "APIs\\Migrations\\20251227125447_productTableChanged.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20251227125447_productTableChanged.cs",
-              "RelativeToolTip": "APIs\\Migrations\\20251227125447_productTableChanged.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 35,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "APIs\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "APIs\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswBkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T12:54:47.656Z"
+              "WhenOpened": "2025-06-16T09:20:56.301Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
+              "Title": "UpdateProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\UpdateProductDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\UpdateProductDTO.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\UpdateProductDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\UpdateProductDTO.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T18:58:46.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
               "Title": "AddProductDTO.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\AddProductDTO.cs",
               "RelativeDocumentMoniker": "Domain\\DTOs\\AddProductDTO.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\AddProductDTO.cs",
               "RelativeToolTip": "Domain\\DTOs\\AddProductDTO.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwBUAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswB4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T13:59:17.675Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "20251226155948_ColumnsChangesInUsers.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20251226155948_ColumnsChangesInUsers.cs",
-              "RelativeDocumentMoniker": "APIs\\Migrations\\20251226155948_ColumnsChangesInUsers.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20251226155948_ColumnsChangesInUsers.cs",
-              "RelativeToolTip": "APIs\\Migrations\\20251226155948_ColumnsChangesInUsers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 38,
+              "Title": "UpdatePasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\UpdatePasswordDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\UpdatePasswordDTO.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\UpdatePasswordDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\UpdatePasswordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T15:59:48.489Z"
+              "WhenOpened": "2026-02-19T13:43:51.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\appsettings.json",
-              "RelativeDocumentMoniker": "APIs\\appsettings.json",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\appsettings.json",
-              "RelativeToolTip": "APIs\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-20T06:03:44.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "AuthResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\AuthResponse.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\AuthResponse.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\AuthResponse.cs",
-              "RelativeToolTip": "Domain\\Entities\\AuthResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "DocumentIndex": 39,
+              "Title": "UpdateStoreDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\UpdateStoreDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\UpdateStoreDTO.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\UpdateStoreDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\UpdateStoreDTO.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA4wBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T15:31:00.655Z"
+              "WhenOpened": "2026-02-18T10:33:59.163Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwA0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T11:55:37.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "AddUserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\AddUserDTO.cs",
-              "RelativeDocumentMoniker": "Domain\\DTOs\\AddUserDTO.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\AddUserDTO.cs",
-              "RelativeToolTip": "Domain\\DTOs\\AddUserDTO.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA8wA4AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T11:57:04.506Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "JWTOptions.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\JWTOptions.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\JWTOptions.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\JWTOptions.cs",
-              "RelativeToolTip": "Domain\\Entities\\JWTOptions.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAswA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T12:29:09.74Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 40,
               "Title": "UpdateUserDTO.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\UpdateUserDTO.cs",
               "RelativeDocumentMoniker": "Domain\\DTOs\\UpdateUserDTO.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\UpdateUserDTO.cs",
               "RelativeToolTip": "Domain\\DTOs\\UpdateUserDTO.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwA8AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-26T11:58:12.864Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 104,
+              "Title": "20260218104724_store-table-update.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260218104724_store-table-update.cs",
+              "RelativeDocumentMoniker": "APIs\\Migrations\\20260218104724_store-table-update.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260218104724_store-table-update.cs",
+              "RelativeToolTip": "APIs\\Migrations\\20260218104724_store-table-update.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T10:47:24.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AddStoreDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\AddStoreDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\AddStoreDTO.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\AddStoreDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\AddStoreDTO.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T06:35:46.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\Review.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Review.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\Review.cs",
+              "RelativeToolTip": "Domain\\Entities\\Review.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T18:16:47.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\AuthResponse.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\AuthResponse.cs",
+              "RelativeToolTip": "Domain\\Entities\\AuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T15:31:00.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20260216181159_email-unique-constrai.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260216181159_email-unique-constrai.cs",
+              "RelativeDocumentMoniker": "APIs\\Migrations\\20260216181159_email-unique-constrai.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260216181159_email-unique-constrai.cs",
+              "RelativeToolTip": "APIs\\Migrations\\20260216181159_email-unique-constrai.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T18:11:59.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20260216180136_email-unique-constraint.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260216180136_email-unique-constraint.cs",
+              "RelativeDocumentMoniker": "APIs\\Migrations\\20260216180136_email-unique-constraint.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260216180136_email-unique-constraint.cs",
+              "RelativeToolTip": "APIs\\Migrations\\20260216180136_email-unique-constraint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T18:01:36.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "GetReviewDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\GetReviewDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\GetReviewDTO.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\GetReviewDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\GetReviewDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T16:16:51.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ProductSize.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\ProductSize.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\ProductSize.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\ProductSize.cs",
+              "RelativeToolTip": "Domain\\Entities\\ProductSize.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T15:51:07.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "20260214170950_productTableRatingColUpdatetodouble.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260214170950_productTableRatingColUpdatetodouble.cs",
+              "RelativeDocumentMoniker": "APIs\\Migrations\\20260214170950_productTableRatingColUpdatetodouble.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260214170950_productTableRatingColUpdatetodouble.cs",
+              "RelativeToolTip": "APIs\\Migrations\\20260214170950_productTableRatingColUpdatetodouble.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T17:09:51.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "20260214165135_productTableUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260214165135_productTableUpdate.cs",
+              "RelativeDocumentMoniker": "APIs\\Migrations\\20260214165135_productTableUpdate.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20260214165135_productTableUpdate.cs",
+              "RelativeToolTip": "APIs\\Migrations\\20260214165135_productTableUpdate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T16:51:35.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
               "Title": "AddToCartDTO.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\AddToCartDTO.cs",
               "RelativeDocumentMoniker": "Domain\\DTOs\\AddToCartDTO.cs",
@@ -842,7 +1194,163 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 50,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\CartItem.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\CartItem.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\CartItem.cs",
+              "RelativeToolTip": "Domain\\Entities\\CartItem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:25:52.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\Cart.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Cart.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\Cart.cs",
+              "RelativeToolTip": "Domain\\Entities\\Cart.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:29:51.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ProductImage.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\ProductImage.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\ProductImage.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\ProductImage.cs",
+              "RelativeToolTip": "Domain\\Entities\\ProductImage.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T18:53:47.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CartItemResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\CartItemResponseDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\CartItemResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\CartItemResponseDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\CartItemResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T18:27:56.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "UserSummaryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\UserSummaryDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\UserSummaryDTO.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\UserSummaryDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\UserSummaryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T18:27:14.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CartResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\CartResponseDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\CartResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\CartResponseDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\CartResponseDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T18:22:39.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "20251227142834_orderAddressColumn.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20251227142834_orderAddressColumn.cs",
+              "RelativeDocumentMoniker": "APIs\\Migrations\\20251227142834_orderAddressColumn.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20251227142834_orderAddressColumn.cs",
+              "RelativeToolTip": "APIs\\Migrations\\20251227142834_orderAddressColumn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T14:28:34.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "20251227140103_orderStatusColumn.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20251227140103_orderStatusColumn.cs",
+              "RelativeDocumentMoniker": "APIs\\Migrations\\20251227140103_orderStatusColumn.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20251227140103_orderStatusColumn.cs",
+              "RelativeToolTip": "APIs\\Migrations\\20251227140103_orderStatusColumn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T14:01:03.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "20251227134648_orderSchemaChanged.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20251227134648_orderSchemaChanged.cs",
+              "RelativeDocumentMoniker": "APIs\\Migrations\\20251227134648_orderSchemaChanged.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20251227134648_orderSchemaChanged.cs",
+              "RelativeToolTip": "APIs\\Migrations\\20251227134648_orderSchemaChanged.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T13:46:48.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "20251227125447_productTableChanged.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20251227125447_productTableChanged.cs",
+              "RelativeDocumentMoniker": "APIs\\Migrations\\20251227125447_productTableChanged.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20251227125447_productTableChanged.cs",
+              "RelativeToolTip": "APIs\\Migrations\\20251227125447_productTableChanged.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T12:54:47.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "20251226155948_ColumnsChangesInUsers.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20251226155948_ColumnsChangesInUsers.cs",
+              "RelativeDocumentMoniker": "APIs\\Migrations\\20251226155948_ColumnsChangesInUsers.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20251226155948_ColumnsChangesInUsers.cs",
+              "RelativeToolTip": "APIs\\Migrations\\20251226155948_ColumnsChangesInUsers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T15:59:48.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\appsettings.json",
+              "RelativeDocumentMoniker": "APIs\\appsettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\appsettings.json",
+              "RelativeToolTip": "APIs\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-20T06:03:44.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "JWTOptions.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\JWTOptions.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\JWTOptions.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\JWTOptions.cs",
+              "RelativeToolTip": "Domain\\Entities\\JWTOptions.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T12:29:09.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
               "Title": "20251226115153_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\APIs\\Migrations\\20251226115153_InitialCreate.cs",
               "RelativeDocumentMoniker": "APIs\\Migrations\\20251226115153_InitialCreate.cs",
@@ -854,7 +1362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 86,
               "Title": "ProductList.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Frontend\\Components\\Pages\\ProductList.razor",
               "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\ProductList.razor",
@@ -866,7 +1374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 87,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Frontend\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Home.razor",
@@ -878,19 +1386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "GetCartDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\GetCartDTO.cs",
-              "RelativeDocumentMoniker": "Domain\\DTOs\\GetCartDTO.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\DTOs\\GetCartDTO.cs",
-              "RelativeToolTip": "Domain\\DTOs\\GetCartDTO.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T07:59:59.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 57,
               "Title": "ProductViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\ProductViewModel.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\ProductViewModel.cs",
@@ -902,7 +1398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 88,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Frontend\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "Frontend\\Components\\_Imports.razor",
@@ -914,7 +1410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 89,
               "Title": "Cart.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Frontend\\Components\\Pages\\Cart.razor",
               "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Cart.razor",
@@ -926,7 +1422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 90,
               "Title": "AccountService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Frontend\\Services\\AccountService.cs",
               "RelativeDocumentMoniker": "Frontend\\Services\\AccountService.cs",
@@ -938,7 +1434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 91,
               "Title": "SignupForm.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Frontend\\Components\\Pages\\SignupForm.razor",
               "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\SignupForm.razor",
@@ -950,7 +1446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 92,
               "Title": "Navbar.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Frontend\\Components\\Pages\\Navbar.razor",
               "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Navbar.razor",
@@ -962,7 +1458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 93,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Frontend\\Components\\App.razor",
               "RelativeDocumentMoniker": "Frontend\\Components\\App.razor",
@@ -974,7 +1470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 94,
               "Title": "AuthComponent.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Frontend\\Components\\Pages\\AuthComponent.razor",
               "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\AuthComponent.razor",
@@ -986,7 +1482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 95,
               "Title": "Error.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Frontend\\Components\\Pages\\Error.razor",
               "RelativeDocumentMoniker": "Frontend\\Components\\Pages\\Error.razor",
@@ -998,7 +1494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 96,
               "Title": "CartService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Frontend\\Services\\CartService.cs",
               "RelativeDocumentMoniker": "Frontend\\Services\\CartService.cs",
@@ -1010,7 +1506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 97,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Frontend\\Program.cs",
               "RelativeDocumentMoniker": "Frontend\\Program.cs",
@@ -1022,7 +1518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 98,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Frontend\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Frontend\\Services\\ProductService.cs",
@@ -1034,7 +1530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 58,
               "Title": "3mlxlmps..sql",
               "DocumentMoniker": "C:\\Users\\Umair\\AppData\\Local\\Temp\\3mlxlmps..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Umair\\AppData\\Local\\Temp\\3mlxlmps..sql",
@@ -1045,7 +1541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 59,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\LoginViewModel.cs",
@@ -1057,7 +1553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 99,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Frontend\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "Frontend\\Components\\Layout\\MainLayout.razor",
@@ -1069,7 +1565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 100,
               "Title": "Footer.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Frontend\\Components\\Shared\\Footer.razor",
               "RelativeDocumentMoniker": "Frontend\\Components\\Shared\\Footer.razor",
@@ -1081,7 +1577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 101,
               "Title": "AuthNav.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Frontend\\Components\\Shared\\AuthNav.razor",
               "RelativeDocumentMoniker": "Frontend\\Components\\Shared\\AuthNav.razor",
@@ -1093,19 +1589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "ProductSize.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\ProductSize.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\ProductSize.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\ProductSize.cs",
-              "RelativeToolTip": "Domain\\Entities\\ProductSize.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T15:51:07.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 60,
               "Title": "ProductColor.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Shop-Easy-Website\\Domain\\Entities\\ProductColor.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\ProductColor.cs",
@@ -1117,7 +1601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 61,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website-backup\\ProductController.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Files\\Shop-Easy-Website-backup\\ProductController.cs",
@@ -1128,7 +1612,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 62,
               "Title": "20250616070826_CleanMigrati.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616070826_CleanMigrati.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616070826_CleanMigrati.cs",
@@ -1139,7 +1623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 63,
               "Title": "20250616070755_CleanMigration.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616070755_CleanMigration.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616070755_CleanMigration.cs",
@@ -1150,7 +1634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 64,
               "Title": "20250616070702_CleanMigrationName.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616070702_CleanMigrationName.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616070702_CleanMigrationName.cs",
@@ -1161,7 +1645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 65,
               "Title": "20250616070441_OrdertableChanged.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616070441_OrdertableChanged.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616070441_OrdertableChanged.cs",
@@ -1172,7 +1656,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 66,
               "Title": "20250616070333_OrderChanged.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616070333_OrderChanged.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616070333_OrderChanged.cs",
@@ -1183,7 +1667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 67,
               "Title": "20250616070245_ForOrderChanged.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616070245_ForOrderChanged.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616070245_ForOrderChanged.cs",
@@ -1194,7 +1678,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 68,
               "Title": "20250616065244_SchemaForOrderChanged.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616065244_SchemaForOrderChanged.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616065244_SchemaForOrderChanged.cs",
@@ -1205,7 +1689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 69,
               "Title": "j4wdhp4t..sql",
               "DocumentMoniker": "C:\\Users\\Umair\\AppData\\Local\\Temp\\j4wdhp4t..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Umair\\AppData\\Local\\Temp\\j4wdhp4t..sql",
@@ -1216,7 +1700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 70,
               "Title": "20250616064817_dbSchemaForOrderChanged.cs",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616064817_dbSchemaForOrderChanged.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Files\\Shop-Easy-Website\\APIs\\Migrations\\20250616064817_dbSchemaForOrderChanged.cs",
@@ -1227,7 +1711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 71,
               "Title": "Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Source\\Repos\\Shop-Easy-Website\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
@@ -1239,7 +1723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 72,
               "Title": "SQLQuery3.sql",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\SQLQuery3.sql",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Files\\Shop-Easy-Website\\SQLQuery3.sql",
@@ -1250,7 +1734,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 73,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Umair\\Desktop\\New folder\\Shop-Easy-Website\\Ecommere_Website\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Umair\\Desktop\\New folder\\Shop-Easy-Website\\Ecommere_Website\\Controllers\\AccountController.cs",
@@ -1261,7 +1745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 74,
               "Title": "SQLQuery2.sql",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\SQLQuery2.sql",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Files\\Shop-Easy-Website\\SQLQuery2.sql",
@@ -1272,7 +1756,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 75,
               "Title": "SQLQuery1.sql",
               "DocumentMoniker": "C:\\Files\\Shop-Easy-Website\\SQLQuery1.sql",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Files\\Shop-Easy-Website\\SQLQuery1.sql",
@@ -1283,7 +1767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 76,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.102\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
@@ -1294,7 +1778,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 77,
               "Title": "zzpon41q..sql",
               "DocumentMoniker": "C:\\Users\\PMLS\\AppData\\Local\\Temp\\zzpon41q..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\PMLS\\AppData\\Local\\Temp\\zzpon41q..sql",
@@ -1305,7 +1789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 78,
               "Title": "SQLQuery1.sql",
               "DocumentMoniker": "C:\\Users\\PMLS\\Desktop\\Project\\Shop-Easy-Website\\SQLQuery1.sql",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\PMLS\\Desktop\\Project\\Shop-Easy-Website\\SQLQuery1.sql",
@@ -1316,7 +1800,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 79,
               "Title": "Domain.csproj",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Source\\Repos\\Shop-Easy-Website\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "Domain\\Domain.csproj",

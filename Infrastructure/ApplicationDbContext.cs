@@ -8,21 +8,22 @@ using System.Threading.Tasks;
 
 namespace Infrastructure
 {
-    public class ApplicationDbContext:DbContext
+    public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
 
         public DbSet<Product> Products { get; set; }
-        public DbSet<Cart> Carts { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<Order> Orders { get; set; }
-        public DbSet<CartItem> CartItems { get; set; }
         public DbSet<ProductSize> ProductSizes { get; set; }
         public DbSet<ProductColor> ProductColors { get; set; }
         public DbSet<ProductImage> ProductImages { get; set; }
         public DbSet<User> Users { get; set; }
-        
+        public DbSet<Review> Reviews { get; set; }
+        public DbSet<Store> Stores { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -31,13 +32,11 @@ namespace Infrastructure
                 .WithOne(p => p.User)
                 .HasForeignKey(p => p.userId)
                 .OnDelete(DeleteBehavior.Cascade);
-            
+            modelBuilder.Entity<User>()
+                .HasIndex(e => e.Email)
+                .IsUnique()
+                .HasDatabaseName("IX_Users_Email_Unique");
 
-            modelBuilder.Entity<Cart>()
-                .HasOne(c => c.User)
-                .WithOne(u => u.Carts)
-                .HasForeignKey<Cart>(c => c.UserId)
-                .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<Order>()
            .HasOne(o => o.Customer)
@@ -52,6 +51,12 @@ namespace Infrastructure
                 .HasForeignKey(o => o.VendorId)
                 .OnDelete(DeleteBehavior.Restrict);
             // Product-Supplier Relationship (One-to-Many)
+            modelBuilder.Entity<OrderItem>().
+                HasOne(oi => oi.Order)
+                .WithMany(o => o.OrderItems)
+                .HasForeignKey(oi => oi.OrderId)
+                .OnDelete(DeleteBehavior.Cascade);
+
 
             modelBuilder.Entity<Product>()
                 .HasOne(p => p.User)
@@ -62,9 +67,9 @@ namespace Infrastructure
 
             // Product-Size Relationship (One-to-Many)
 
-            
+
             modelBuilder.Entity<Product>()
-                
+
                 .HasMany(p => p.Sizes)
                 .WithOne(s => s.Product)
                 .HasForeignKey(s => s.ProductId)
@@ -87,7 +92,41 @@ namespace Infrastructure
 
             modelBuilder.Entity<Product>()
                 .Property(p => p.Price)
-                .HasColumnType("decimal(18,2)"); 
+                .HasColumnType("decimal(18,2)");
+
+
+
+            modelBuilder.Entity<Review>()
+       .HasOne(r => r.User)
+       .WithMany(u => u.Reviews)
+       .HasForeignKey(r => r.UserId)
+       .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Review>()
+                .HasOne(r => r.Product)
+                .WithMany(p => p.Reviews)
+                .HasForeignKey(r => r.ProductId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Prevent same user reviewing same product twice
+            modelBuilder.Entity<Review>()
+                .HasIndex(r => new { r.UserId, r.ProductId })
+                .IsUnique();
+
+
+            modelBuilder.Entity<Store>()
+             .HasOne(s => s.Owner)
+              .WithOne(u => u.Store)
+             .HasForeignKey<Store>(s => s.OwnerId)
+             .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Product>()
+                .HasOne(p => p.Store)
+                .WithMany(s => s.Products)
+                .HasForeignKey(p => p.StoreId)
+                .OnDelete(DeleteBehavior.Cascade);
+
         }
+
     }
 }

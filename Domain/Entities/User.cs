@@ -25,6 +25,9 @@ namespace Domain.Entities
         public ICollection<Order> OrdersAsVendor { get; set; } = new HashSet<Order>();
         [JsonIgnore]
         public ICollection<Product> Products { get; set; }
+        public ICollection<Review> Reviews { get; set; } = new List<Review>();
+        public Store? Store { get; set; }
+
 
     }
 }

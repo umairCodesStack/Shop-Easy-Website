@@ -12,12 +12,14 @@ namespace Domain.Interfaces
     {
         public Product AddProduct(AddProductDTO product);
 
-        public void UpdateProduct(int productId);
-        public void DeleteProduct(int productId);
-        public GetProductDTO GetProductById(int id);
+        public bool UpdateProduct(int productId, UpdateProductDTO update);
+        public int DeleteProduct(int productId);
+        public GetProductDetailDTO GetProductById(int id);
         public List<GetProductDTO> GetAllProducts();
         public List<Product> SearchProductByName(string name);
         public List<Product> SearchProductByCatagorey(string catagorey);
+        public List<string> GetCatagories();
+        public List<GetProductDetailDTO> getProductByUserId(int userId);
 
     }
 }

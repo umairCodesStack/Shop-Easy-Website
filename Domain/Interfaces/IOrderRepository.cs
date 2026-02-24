@@ -10,11 +10,13 @@ namespace Domain.Interfaces
 {
     public interface IOrderRepository
     {
-        public Order AddOrder(AddOrderDTO order);
+        public Order? AddOrder(AddOrderDTO order);
         public void CancelOrder(int orderId);
         public bool UpdateOrderStatus(int orderId, string status);
-        public GetOrderDTO GetOrderSummary(int orderId);
+        public List<GetOrderDTO> GetOrderSummariesByUserId(int orderId);
         public List<GetOrderDTO> GetOrdersByVendorId(int vendorId);
+        public bool RequestOrderCancellation(int orderId, string reason);
+        public List<GetCustomerDTO> GetYourCustomers(int vendorId);
 
 
 

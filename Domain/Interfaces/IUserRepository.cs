@@ -12,9 +12,11 @@ namespace Domain.Interfaces
     public interface IUserRepository
     {
         public User AddUser(AddUserDTO user);
-        public void DeleteUser(int userId);
-        public void UpdateUser(UpdateUserDTO user);
+        public int DeleteUser(int userId);
+        public int UpdateUser(UpdateUserDTO user);
         public bool EmailExists(string email);
         public User? GetUserByEmail(string email);
+        public User? GetUserById(int userId);
+        public bool ChangePassword(UpdatePasswordDTO update);
     }
 }

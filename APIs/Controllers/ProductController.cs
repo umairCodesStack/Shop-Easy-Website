@@ -2,6 +2,7 @@
 using Domain.DTOs;
 using Domain.Entities;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OData.Query;
 using Microsoft.AspNetCore.OData.Routing.Controllers;
@@ -19,7 +20,7 @@ namespace APIs.Controllers
             _productService = productService;
         }
 
-        
+
         [EnableQuery]
         [HttpGet]
         public IQueryable<GetProductDTO> Get()
@@ -27,7 +28,7 @@ namespace APIs.Controllers
             return _productService.GetAllProducts().AsQueryable();
         }
 
-       
+
         [EnableQuery]
         [HttpGet("getProductById")]
         public IActionResult Get([FromQuery] int product_id)
@@ -42,9 +43,9 @@ namespace APIs.Controllers
         [Authorize(Roles = "Admin,Vendor")]
         public IActionResult Post([FromBody] AddProductDTO product)
         {
-             Product createdProduct=_productService.AddProduct(product);
+            Product createdProduct = _productService.AddProduct(product);
 
-            if(createdProduct==null)
+            if (createdProduct == null)
                 return BadRequest("Product could not be created.");
             return Ok(new
             {
@@ -54,23 +55,62 @@ namespace APIs.Controllers
                 timestamp = DateTime.UtcNow
             });
         }
-        [HttpPut("{product_id}",Name ="updateProduct")]
-        [Authorize(Roles = "Admin,Vendor")]
-        public IActionResult Put([FromRoute] int product_id, [FromBody] Product product)
-        {
-            if (product_id != product.Id)
-                return BadRequest("Product IDs do not match.");
 
-            _productService.UpdateProduct(product_id);
-            return NoContent();
+        [Authorize(Roles = "Admin,Vendor")]
+        [HttpPut("{productId}")]
+
+        public IActionResult UpdateProduct(int productId, [FromBody] UpdateProductDTO productDTO)
+        {
+            try
+            {
+                // Validate model
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(new { message = "Invalid product data", errors = ModelState });
+                }
+
+                // Update product
+                bool success = _productService.UpdateProduct(productId, productDTO);
+
+                if (success)
+                {
+                    return Ok(new { message = "Product updated successfully", productId = productId });
+                }
+                else
+                {
+                    return NotFound(new { message = $"Product with id {productId} not found" });
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log the exception
+                Console.WriteLine($"Error updating product {productId}: {ex.Message}");
+                return StatusCode(500, new { message = "An error occurred while updating the product", error = ex.Message });
+            }
         }
 
-        [HttpDelete("{product_id}", Name = "DeleteProduct")]
+        [HttpDelete("DeleteProduct")]
         [Authorize(Roles = "Admin,Vendor")]
-        public IActionResult Delete([FromRoute] int product_id)
+        public IActionResult Delete(int product_id)
         {
-            _productService.DeleteProduct(product_id);
-            return NoContent();
+            int res = _productService.DeleteProduct(product_id);
+            if (res == 0)
+                return NotFound($"Product with id {product_id} not found.");
+            return Ok("Product Deleted Successfuly");
+        }
+        [HttpGet("getCatagories")]
+        public IActionResult GetCatagories()
+        {
+            var catagories = _productService.GetCatagories();
+            return Ok(catagories);
+        }
+        [HttpGet("getProductByUserId")]
+        public IActionResult GetProductByUserId(int userId)
+        {
+            var products = _productService.getProductByUserId(userId);
+            if (products == null || products.Count == 0)
+                return NotFound($"No products found for user with id {userId}.");
+            return Ok(products);
         }
     }
 }

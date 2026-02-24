@@ -310,8 +310,10 @@ C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\APIs.dll
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\APIs.pdb
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\Blazored.SessionStorage.dll
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\Microsoft.AspNetCore.OData.dll
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -342,6 +344,8 @@ C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\Microsoft.S
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -435,7 +439,6 @@ C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\obj\Debug\net8.0\APIs.Genera
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\obj\Debug\net8.0\APIs.AssemblyInfoInputs.cache
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\obj\Debug\net8.0\APIs.AssemblyInfo.cs
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\obj\Debug\net8.0\APIs.csproj.CoreCompileInputs.cache
-C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\obj\Debug\net8.0\APIs.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\obj\Debug\net8.0\APIs.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\obj\Debug\net8.0\APIs.sourcelink.json
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\obj\Debug\net8.0\rjimswa.dswa.cache.json
@@ -453,7 +456,4 @@ C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\obj\Debug\net8.0\refint\APIs
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\obj\Debug\net8.0\APIs.pdb
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\obj\Debug\net8.0\APIs.genruntimeconfig.cache
 C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\obj\Debug\net8.0\ref\APIs.dll
-C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\Npgsql.dll
-C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\BCrypt.Net-Next.dll
-C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Lenovo\Source\Repos\Shop-Easy-Website\APIs\obj\Debug\net8.0\APIs.MvcApplicationPartsAssemblyInfo.cs

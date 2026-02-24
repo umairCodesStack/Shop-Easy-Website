@@ -1,4 +1,5 @@
-﻿using Domain.DTOs;
+﻿using Azure.Core;
+using Domain.DTOs;
 using Domain.Entities;
 using Domain.Interfaces;
 using Infrastructure;
@@ -29,7 +30,7 @@ public class UserAuthController : ControllerBase
     public IActionResult Signup([FromBody] AddUserDTO request)
     {
         // 1. Validate input
-        if (request.UserName=="")
+        if (request.UserName == "")
             return BadRequest(new { message = "Username is required" });
 
         if (string.IsNullOrWhiteSpace(request.Email))
@@ -46,7 +47,7 @@ public class UserAuthController : ControllerBase
         if (!IsValidPassword(request.Password, out string passwordError))
             return BadRequest(new { message = passwordError });
 
-        
+
         // 5. Check if email already exists
         if (_userStore.EmailExists(request.Email))
             return Conflict(new { message = "Email already exists" });
@@ -62,11 +63,11 @@ public class UserAuthController : ControllerBase
             Role = request.Role
         };
         // 7. Create user
-        var createdUser= _userStore.AddUser(newUser);
+        var createdUser = _userStore.AddUser(newUser);
         Console.WriteLine("Created User ID: " + createdUser.Id);
 
         // 8. Generate JWT token for the new user
-        var token = GenerateJwtToken(createdUser.Id.ToString(), createdUser.Name, createdUser.Email, createdUser.Role);
+        var token = GenerateJwtToken(createdUser.Id.ToString(), createdUser.Name, createdUser.Email, createdUser.Role, createdUser.imageUrl);
 
         return CreatedAtAction(nameof(Signup), new AuthResponse
         {
@@ -75,7 +76,8 @@ public class UserAuthController : ControllerBase
             ExpiresAt = token.expiresAt,
             Username = createdUser.Name,
             Email = createdUser.Email,
-            Role = createdUser.Role
+            Role = createdUser.Role,
+            UserId = createdUser.Id.ToString()
         });
     }
 
@@ -97,7 +99,7 @@ public class UserAuthController : ControllerBase
             return Unauthorized(new { message = "Invalid username or password" });
 
         // 4. Generate JWT token
-        var token = GenerateJwtToken(user.Id.ToString(), user.Name, user.Email, user.Role);
+        var token = GenerateJwtToken(user.Id.ToString(), user.Name, user.Email, user.Role, user.imageUrl);
 
         return Ok(new AuthResponse
         {
@@ -106,12 +108,54 @@ public class UserAuthController : ControllerBase
             ExpiresAt = token.expiresAt,
             Username = user.Name,
             Email = user.Email,
-            Role = user.Role
+            Role = user.Role,
+            UserId = user.Id.ToString()
         });
     }
-
+    [HttpDelete("deleteUser")]
+    public IActionResult DeleteUser(int userId)
+    {
+        int res = _userStore.DeleteUser(userId);
+        if (res == 0)
+            return NotFound(new { message = $"User with id {userId} not found" });
+        return Ok(new { message = "User deleted successfully" });
+    }
+    [HttpPut("updateUser")]
+    public IActionResult UpdateUser(UpdateUserDTO user)
+    {
+        _userStore.UpdateUser(user);
+        return Ok(new { message = "User updated successfully" });
+    }
+    [HttpGet("getUserByEmail")]
+    public IActionResult GetUserByEmail(string email)
+    {
+        var user = _userStore.GetUserByEmail(email);
+        if (user == null)
+            return NotFound(new { message = $"User with email {email} not found" });
+        return Ok(user);
+    }
+    [HttpGet("getUserById")]
+    public IActionResult GetUserById(int userId)
+    {
+        var user = _userStore.GetUserById(userId);
+        if (user == null)
+            return NotFound(new { message = $"User with email {userId} not found" });
+        return Ok(user);
+    }
+    [HttpPut("updateUserPassword")]
+    public IActionResult UpdateUserPassword(UpdatePasswordDTO update)
+    {
+        if (_userStore.ChangePassword(update))
+        {
+            return Ok(new { message = "Password updated successfully" });
+        }
+        else
+        {
+            return BadRequest(new { message = "Failed to update password. Please check your current password and try again." });
+        }
+    }
     // ===== HELPER METHOD:  Generate JWT Token =====
-    private (string tokenString, DateTime expiresAt) GenerateJwtToken(string userId, string username, string email, string role)
+    private (string tokenString, DateTime expiresAt) GenerateJwtToken(string userId, string username, string email, string role, string logoUrl)
     {
         var issuer = _configuration["Jwt:Issuer"];
         var audience = _configuration["Jwt:Audience"];
@@ -124,12 +168,13 @@ public class UserAuthController : ControllerBase
             new Claim(JwtRegisteredClaimNames.UniqueName, username),
             new Claim(JwtRegisteredClaimNames.Email, email),
             new Claim(JwtRegisteredClaimNames.Jti, Guid. NewGuid().ToString()),
-            new Claim(ClaimTypes.Name, username),
-            new Claim("userId", userId),
-            new Claim(ClaimTypes.Role, role),
+            new Claim("name", username??""),
+            new Claim("userId", userId??""),
+            new Claim("role", role??""),
+            new Claim("logoUrl", logoUrl ?? ""),
         };
 
-        
+
 
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey));
         var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
@@ -191,5 +236,5 @@ public class LoginRequest
 {
     public string Email { get; set; } = string.Empty;
     public string Password { get; set; } = string.Empty;
-}  
+}
 

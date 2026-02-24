@@ -12,38 +12,46 @@ namespace Application
     public class ProductService
     {
         private readonly IProductRepository _repo;
-        public ProductService(IProductRepository repo) 
+        public ProductService(IProductRepository repo)
         {
             _repo = repo;
         }
-        public Product AddProduct(AddProductDTO product) 
+        public Product AddProduct(AddProductDTO product)
         {
             return _repo.AddProduct(product);
         }
 
-        public void UpdateProduct(int productId) 
+        public bool UpdateProduct(int productId, UpdateProductDTO update)
         {
-            _repo.UpdateProduct(productId);
+            return _repo.UpdateProduct(productId, update);
         }
-        public void DeleteProduct(int productId) 
+        public int DeleteProduct(int productId)
         {
-            _repo.DeleteProduct(productId);
+            return _repo.DeleteProduct(productId);
         }
-        public GetProductDTO GetProductById(int id) 
+        public GetProductDetailDTO GetProductById(int id)
         {
             return _repo.GetProductById(id);
         }
-        public List<GetProductDTO> GetAllProducts() 
+        public List<GetProductDTO> GetAllProducts()
         {
             return _repo.GetAllProducts();
         }
-        public List<Product> SearchProductByName(string name) 
+        public List<Product> SearchProductByName(string name)
         {
             return _repo.SearchProductByName(name);
         }
-        public List<Product> SearchProductByCatagorey(string catagorey) 
+        public List<Product> SearchProductByCatagorey(string catagorey)
         {
             return _repo.SearchProductByCatagorey(catagorey);
+        }
+        public List<string> GetCatagories()
+        {
+            return _repo.GetCatagories();
+        }
+        public List<GetProductDetailDTO> getProductByUserId(int userId)
+        {
+            return _repo.getProductByUserId(userId);
         }
     }
 }

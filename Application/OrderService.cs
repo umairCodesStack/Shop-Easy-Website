@@ -12,30 +12,37 @@ namespace Application
     public class OrderService
     {
         private readonly IOrderRepository _repo;
-        public OrderService(IOrderRepository repo) 
+        public OrderService(IOrderRepository repo)
         {
             _repo = repo;
         }
-        public Order AddOrder(AddOrderDTO order) 
+        public Order? AddOrder(AddOrderDTO order)
         {
-           return _repo.AddOrder(order);
+            return _repo.AddOrder(order);
         }
-        public void CancelOrder(int orderId) 
+        public void CancelOrder(int orderId)
         {
             _repo.CancelOrder(orderId);
         }
-        public GetOrderDTO GetOrderSummary(int orderId) 
+        public List<GetOrderDTO> GetOrderSummaryByUserId(int userId)
         {
-            return _repo.GetOrderSummary(orderId);
+            return _repo.GetOrderSummariesByUserId(userId);
         }
         public List<GetOrderDTO> GetOrdersByVendorId(int vendorId)
         {
             return _repo.GetOrdersByVendorId(vendorId);
         }
-        public bool UpdateOrderStatus(int orderId, string status) 
+        public bool UpdateOrderStatus(int orderId, string status)
         {
             return _repo.UpdateOrderStatus(orderId, status);
         }
-
+        public bool RequestOrderCancellation(int orderId, string reason)
+        {
+            return _repo.RequestOrderCancellation(orderId, reason);
+        }
+        public List<GetCustomerDTO> GetYourCustomers(int vendorId)
+        {
+            return _repo.GetYourCustomers(vendorId);
+        }
     }
 }

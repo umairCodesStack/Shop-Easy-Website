@@ -10,10 +10,11 @@ namespace Domain.Entities
     {
         public string Token { get; set; }
         public DateTime ExpiresAt { get; set; }
-        public string AccessToken {get; set; }
-        public string TokenType { get; set; }        
-        public string Username {get; set; }
-         public string Email { get; set; }   
-         public string   Role { get; set; }
+        public string AccessToken { get; set; }
+        public string TokenType { get; set; }
+        public string Username { get; set; }
+        public string Email { get; set; }
+        public string Role { get; set; }
+        public string UserId { get; set; }
     }
 }
